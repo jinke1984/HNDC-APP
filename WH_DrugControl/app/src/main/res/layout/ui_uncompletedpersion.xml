@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0">
+
+    <include
+        android:id="@+id/_top_action"
+        layout="@layout/qiandw_system_header_include"/>
+
+    <ImageView
+        android:id="@+id/new_add_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/_top_action"
+        android:layout_alignRight="@id/_top_action"
+        android:layout_alignTop="@id/_top_action"
+        android:padding="16dip"
+        android:src="@drawable/new_add"/>
+
+    <ListView
+        android:id="@+id/qiandw_system_uncompleted_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/_top_action"
+        android:background="@color/white"
+        android:divider="#e5e5e5"
+        android:dividerHeight="0.5dp"
+        tools:listitem="@layout/item_uncompletedpersion"/>
+
+</RelativeLayout>

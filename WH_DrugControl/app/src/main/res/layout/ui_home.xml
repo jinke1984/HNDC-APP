@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/home_top"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@color/home_top_color">
+
+        <TextView
+            android:id="@+id/home_area_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dip"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/new_add_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dip"
+            android:padding="8dip"
+            android:visibility="gone"
+            android:src="@drawable/new_add"/>
+
+        <ImageView
+            android:id="@+id/other_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dip"
+            android:src="@drawable/other"/>
+
+        <ImageButton
+            android:id="@+id/search_ib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="13.3dip"
+            android:layout_toLeftOf="@+id/other_iv"
+            android:layout_centerVertical="true"
+            android:background="@drawable/search_btn"/>
+
+        <ImageButton
+            android:id="@+id/dangdang_ib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13.3dip"
+            android:layout_toLeftOf="@+id/search_ib"
+            android:background="@drawable/dangdang_btn"/>
+    </RelativeLayout>
+
+    <cn.com.jinke.wh_drugcontrol.customview.VerticalScrollView
+        android:id="@+id/home_sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/home_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/new_notice_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dip"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    tools:visibility="visible">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dip"
+                        android:background="@drawable/new_notice"/>
+
+                    <TextView
+                        android:id="@+id/new_notice_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="6.6dip"
+                        android:layout_marginRight="6.6dip"
+                        android:ellipsize="marquee"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center"
+                        android:lines="1"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:singleLine="true"
+                        android:textColor="@color/new_notice_color"
+                        android:textSize="16sp"
+                        tools:text="尊进的各位专干你们好!2017.10.01 上午9.00 将发布新版本app,届时请各位进行下载更新。"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/home_bg_iv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/home_bg"/>
+
+                <TextView
+                    android:id="@+id/show_name_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dip"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dip"
+                    android:textColor="@color/new_notice_color"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.6dip"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dip"
+                    android:drawableLeft="@drawable/home_point"
+                    android:drawablePadding="6dip"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dip"
+                    android:text="@string/gztx"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.6dip"
+                    android:background="@color/h_line"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="65dip"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/dqft_layout"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/my_item_bg">
+
+                        <ImageView
+                            android:id="@+id/dqft_iv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="13.3dip"
+                            android:background="@drawable/dqft"/>
+
+                        <TextView
+                            android:id="@+id/dqft_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="7.5dip"
+                            android:layout_marginTop="16dip"
+                            android:layout_toRightOf="@+id/dqft_iv"
+                            android:text="@string/dqft"
+                            android:textColor="@color/login_title_color"
+                            android:textSize="13sp"/>
+
+                        <TextView
+                            android:id="@+id/dqft_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/dqft_tv"
+                            android:layout_marginLeft="7.5dip"
+                            android:layout_marginTop="7.5dip"
+                            android:layout_toRightOf="@+id/dqft_iv"
+                            android:text="@string/wd"
+                            android:textColor="@color/hui_home"
+                            android:textSize="10sp"/>
+
+                        <ImageView
+                            android:layout_width="0.6dip"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/h_line"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/dqlj_layout"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/my_item_bg">
+
+                        <ImageView
+                            android:id="@+id/dqlj_iv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="13.3dip"
+                            android:background="@drawable/dqlj"/>
+
+                        <TextView
+                            android:id="@+id/dqlj_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="7.5dip"
+                            android:layout_marginTop="16dip"
+                            android:layout_toRightOf="@+id/dqlj_iv"
+                            android:text="@string/dqlj"
+                            android:textColor="@color/login_title_color"
+                            android:textSize="13sp"/>
+
+                        <TextView
+                            android:id="@+id/dqlj_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/dqlj_tv"
+                            android:layout_marginLeft="7.5dip"
+                            android:layout_marginTop="7.5dip"
+                            android:layout_toRightOf="@+id/dqlj_iv"
+                            android:text="@string/wd"
+                            android:textColor="@color/hui_home"
+                            android:textSize="10sp"/>
+
+                        <ImageView
+                            android:layout_width="0.6dip"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/h_line"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/dqbg_layout"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/my_item_bg">
+
+                        <ImageView
+                            android:id="@+id/dqbg_iv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="13.3dip"
+                            android:background="@drawable/dqbg"/>
+
+                        <TextView
+                            android:id="@+id/dqbg_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="7.5dip"
+                            android:layout_marginTop="16dip"
+                            android:layout_toRightOf="@+id/dqbg_iv"
+                            android:text="@string/dqbg"
+                            android:textColor="@color/login_title_color"
+                            android:textSize="13sp"/>
+
+                        <TextView
+                            android:id="@+id/dqbg_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/dqbg_tv"
+                            android:layout_marginLeft="7.5dip"
+                            android:layout_marginTop="7.5dip"
+                            android:layout_toRightOf="@+id/dqbg_iv"
+                            android:text="@string/wd"
+                            android:textColor="@color/hui_home"
+                            android:textSize="10sp"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.6dip"
+                    android:background="@color/h_line"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="65dip"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/dqpg_layout"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/my_item_bg">
+
+                        <ImageView
+                            android:id="@+id/dqpg_iv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="13.3dip"
+                            android:background="@drawable/dqpg"/>
+
+                        <TextView
+                            android:id="@+id/dqpg_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8.8dip"
+                            android:layout_marginTop="16dip"
+                            android:layout_toRightOf="@+id/dqpg_iv"
+                            android:text="@string/dqpg"
+                            android:textColor="@color/login_title_color"
+                            android:textSize="13sp"/>
+
+                        <TextView
+                            android:id="@+id/dqpg_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/dqpg_tv"
+                            android:layout_marginLeft="8.8dip"
+                            android:layout_marginTop="7.5dip"
+                            android:layout_toRightOf="@+id/dqpg_iv"
+                            android:text="@string/wd"
+                            android:textColor="@color/hui_home"
+                            android:textSize="10sp"/>
+
+                        <ImageView
+                            android:layout_width="0.6dip"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/h_line"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/dtxxwh_layout"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/my_item_bg">
+
+                        <ImageView
+                            android:id="@+id/dtxxwh_iv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="13.3dip"
+                            android:background="@drawable/dtxxwh"/>
+
+                        <TextView
+                            android:id="@+id/dtxxwh_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8.8dip"
+                            android:layout_marginTop="16dip"
+                            android:layout_toRightOf="@+id/dtxxwh_iv"
+                            android:text="@string/dtxxwh"
+                            android:textColor="@color/login_title_color"
+                            android:textSize="13sp"/>
+
+                        <TextView
+                            android:id="@+id/dtxxwh_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/dtxxwh_tv"
+                            android:layout_marginLeft="8.8dip"
+                            android:layout_marginTop="7.5dip"
+                            android:layout_toRightOf="@+id/dtxxwh_iv"
+                            android:text="@string/wd"
+                            android:textColor="@color/hui_home"
+                            android:textSize="10sp"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="6.6dip"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dip"
+                    android:drawableLeft="@drawable/home_point"
+                    android:drawablePadding="6dip"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dip"
+                    android:text="@string/wdrw"/>
+
+                <cn.com.jinke.wh_drugcontrol.customview.NewGridView
+                    android:id="@+id/mytask_gridview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:horizontalSpacing="2dip"
+                    android:numColumns="2"
+                    android:paddingBottom="13.3dip"
+                    android:verticalSpacing="2dip"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </cn.com.jinke.wh_drugcontrol.customview.VerticalScrollView>
+</LinearLayout>

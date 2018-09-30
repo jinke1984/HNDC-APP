@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="reference" name="coordinatorLayoutStyle"/>
+    <color name="cloudwalk_bg">#151e32</color>
+    <color name="cloudwalk_bgserver">#0c101c</color>
+    <color name="cloudwalk_guide">#20ffffff</color>
+    <color name="face_result_fail">#d72928</color>
+    <color name="face_result_ok">#63b962</color>
+    <color name="kprogresshud_default_color">#b1000000</color>
+    <color name="kprogresshud_grey_color">#449E9E9E</color>
+    <color name="line_bg">#aeb3b9</color>
+    <color name="notification_action_color_filter">#ffffffff</color>
+    <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="notification_material_background_media_default_color">#ff424242</color>
+    <color name="primary_text_default_material_dark">#ffffffff</color>
+    <color name="red">#d8282a</color>
+    <color name="red_alpha_30">#30d8282a</color>
+    <color name="ripple_material_light">#1f000000</color>
+    <color name="secondary_text_default_material_dark">#b3ffffff</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <color name="step_bg">#4b4956</color>
+    <color name="white_alpha_30">#30ffffff</color>
+    <declare-styleable name="CoordinatorLayout"><attr format="reference" name="keylines"/><attr format="color|reference" name="statusBarBackground"/></declare-styleable>
+    <declare-styleable name="CoordinatorLayout_Layout"><attr name="android:layout_gravity"/><attr format="string" name="layout_behavior"/><attr format="reference" name="layout_anchor"/><attr format="integer" name="layout_keyline"/><attr name="layout_anchorGravity">
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="center_vertical" value="0x10"/>
+            
+            <flag name="fill_vertical" value="0x70"/>
+            
+            <flag name="center_horizontal" value="0x01"/>
+            
+            <flag name="fill_horizontal" value="0x07"/>
+            
+            <flag name="center" value="0x11"/>
+            
+            <flag name="fill" value="0x77"/>
+            
+            <flag name="clip_vertical" value="0x80"/>
+            
+            <flag name="clip_horizontal" value="0x08"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+        </attr><attr format="enum" name="layout_insetEdge">
+            
+            <enum name="none" value="0x0"/>
+            
+            <enum name="top" value="0x30"/>
+            
+            <enum name="bottom" value="0x50"/>
+            
+            <enum name="left" value="0x03"/>
+            
+            <enum name="right" value="0x05"/>
+            
+            <enum name="start" value="0x00800003"/>
+            
+            <enum name="end" value="0x00800005"/>
+        </attr><attr name="layout_dodgeInsetEdges">
+            
+            <flag name="none" value="0x0"/>
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+            
+            <flag name="all" value="0x77"/>
+        </attr></declare-styleable>
+    <declare-styleable name="FontFamily"><attr format="string" name="fontProviderAuthority"/><attr format="string" name="fontProviderPackage"/><attr format="string" name="fontProviderQuery"/><attr format="reference" name="fontProviderCerts"/><attr name="fontProviderFetchStrategy">
+            
+            <enum name="blocking" value="0"/>
+            
+            <enum name="async" value="1"/>
+        </attr><attr format="integer" name="fontProviderFetchTimeout">
+          
+            <enum name="forever" value="-1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="FontFamilyFont"><attr name="fontStyle">
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="1"/>
+        </attr><attr format="reference" name="font"/><attr format="integer" name="fontWeight"/><attr name="android:fontStyle"/><attr name="android:font"/><attr name="android:fontWeight"/></declare-styleable>
+    <dimen name="BiggerTextSize">22.0sp</dimen>
+    <dimen name="InputEditTextMinHeight">25.0dip</dimen>
+    <dimen name="MiddleTextSize">16.0sp</dimen>
+    <dimen name="NormalPadding">12.0dip</dimen>
+    <dimen name="NormalTextSize">18.0sp</dimen>
+    <dimen name="OneDPPadding">1.0dip</dimen>
+    <dimen name="SmallListHeight">48.0dip</dimen>
+    <dimen name="SmallTextSize">14.0sp</dimen>
+    <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
+    <dimen name="compat_button_inset_vertical_material">6dp</dimen>
+    <dimen name="compat_button_padding_horizontal_material">8dp</dimen>
+    <dimen name="compat_button_padding_vertical_material">4dp</dimen>
+    <dimen name="compat_control_corner_material">2dp</dimen>
+    <dimen name="notification_action_icon_size">32dp</dimen>
+    <dimen name="notification_action_text_size">13sp</dimen>
+    <dimen name="notification_big_circle_margin">12dp</dimen>
+    <dimen name="notification_content_margin_start">8dp</dimen>
+    <dimen name="notification_large_icon_height">64dp</dimen>
+    <dimen name="notification_large_icon_width">64dp</dimen>
+    <dimen name="notification_main_column_padding_top">10dp</dimen>
+    <dimen name="notification_media_narrow_margin">@dimen/notification_content_margin_start</dimen>
+    <dimen name="notification_right_icon_size">16dp</dimen>
+    <dimen name="notification_right_side_padding_top">2dp</dimen>
+    <dimen name="notification_small_icon_background_padding">3dp</dimen>
+    <dimen name="notification_small_icon_size_as_large">24dp</dimen>
+    <dimen name="notification_subtext_size">13sp</dimen>
+    <dimen name="notification_top_pad">10dp</dimen>
+    <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <item name="line1" type="id"/>
+    <item name="line3" type="id"/>
+    <item name="tag_transition_group" type="id"/>
+    <item name="text" type="id"/>
+    <item name="text2" type="id"/>
+    <item name="title" type="id"/>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="app_name">cloudwalk2</string>
+    <string name="back">返回</string>
+    <string name="bank_issuer">发卡行</string>
+    <string name="bank_loading">银行卡识别中</string>
+    <string name="bank_result">银行识别结果</string>
+    <string name="bestface_fail">检测失败,获取最佳人脸失败</string>
+    <string name="card_name">卡名</string>
+    <string name="card_number">卡号</string>
+    <string name="card_type">卡类型</string>
+    <string name="cloudwalk_bestface_title">最佳人脸</string>
+    <string name="cloudwalk_copy_modules">正在初始化运行环境</string>
+    <string name="cloudwalk_copy_modules_failed">初始化模型文件失败</string>
+    <string name="cloudwalk_faceserver_live">后端防Hack验证中</string>
+    <string name="cloudwalk_faceverifying">人脸比对中….</string>
+    <string name="cloudwalk_live_eye">眨眼</string>
+    <string name="cloudwalk_live_headdown">缓慢点头</string>
+    <string name="cloudwalk_live_headleft">向左缓慢转头</string>
+    <string name="cloudwalk_live_headright">向右缓慢转头</string>
+    <string name="cloudwalk_live_headup">缓慢抬头</string>
+    <string name="cloudwalk_live_mouth">张嘴</string>
+    <string name="cloudwalk_live_title">活体检测</string>
+    <string name="cloudwalk_start_dect">开始检测</string>
+    <string name="cloudwalk_tip_eye_too_small">眼睛睁大一点</string>
+    <string name="cloudwalk_tip_face_shield">人脸被遮挡</string>
+    <string name="cloudwalk_tip_himself">请确保是账户本人操作</string>
+    <string name="cloudwalk_tip_light">请正对手机,确保光线充足</string>
+    <string name="cloudwalk_tip_mouth_too_small">嘴巴张大一点</string>
+    <string name="cloudwalk_tip_no_face">没有检测到人脸</string>
+    <string name="cloudwalk_tip_not_center">请按图示将人脸放入取景框中</string>
+    <string name="cloudwalk_tip_not_frontal">请正对屏幕</string>
+    <string name="cloudwalk_tip_not_stable">请不要晃动</string>
+    <string name="cloudwalk_tip_too_bright">请调整光线,避开强光</string>
+    <string name="cloudwalk_tip_too_close">请再远一点</string>
+    <string name="cloudwalk_tip_too_dark">请正对屏幕,确保光线充足</string>
+    <string name="cloudwalk_tip_too_far">请再近一点</string>
+    <string name="commit">确定</string>
+    <string name="face_verfy_fail">验证失败</string>
+    <string name="face_verfy_fail_tip">抱歉,人脸验证失败!</string>
+    <string name="face_verfy_ok">验证成功</string>
+    <string name="face_verfy_ok_tip">验证成功,感谢您的配合!</string>
+    <string name="faceattack_4">-4 黑白图片攻击!</string>
+    <string name="faceattack_7">-7 换人攻击!</string>
+    <string name="faceattack_8">-8 多张人脸!</string>
+    <string name="faceattr_not_avaliable">抱歉,此功能暂未开通,敬请期待!</string>
+    <string name="facedec_net_fail">网络连接失败,请检查网络后再试!</string>
+    <string name="facedect_fail">检测失败</string>
+    <string name="facedect_fail_offline">前端检测失败</string>
+    <string name="facedect_fail_server">后端防hack攻击失败</string>
+    <string name="facedect_fail_tip">抱歉,人脸检测失败</string>
+    <string name="facedect_ok">检测成功</string>
+    <string name="facedect_ok_offline">前端检测成功</string>
+    <string name="facedect_ok_server">后端防hack攻击成功</string>
+    <string name="facedect_ok_tip">检测成功,感谢您的配合!</string>
+    <string name="facedectfail">检测失败</string>
+    <string name="facedectfail_actionblend">检测失败,请按照提示做出相应的动作</string>
+    <string name="facedectfail_appid">初始化失败,授权码无效!</string>
+    <string name="facedectfail_changeface">检测失败,检测到换人!</string>
+    <string name="facedectfail_fakeface">检测失败，未按提示做出相应的动作!</string>
+    <string name="facedectfail_moreface">检测失败,检测到多个人!</string>
+    <string name="facedectfail_noface">检测失败，请按图示将人脸放入取景框中!</string>
+    <string name="facedectfail_timeout">检测超时,请在规定的时间内做出相应的动作</string>
+    <string name="facedectsuc">检测成功</string>
+    <string name="faceverifyfail">验证失败</string>
+    <string name="faceverifysuc">验证成功</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="restart">重新验证</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <style name="AppBaseTheme">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
+    <style name="TextAppearance.Compat.Notification.Info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info.Media"/>
+    <style name="TextAppearance.Compat.Notification.Line2" parent="TextAppearance.Compat.Notification.Info"/>
+    <style name="TextAppearance.Compat.Notification.Line2.Media" parent="TextAppearance.Compat.Notification.Info.Media"/>
+    <style name="TextAppearance.Compat.Notification.Media"/>
+    <style name="TextAppearance.Compat.Notification.Time">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time.Media"/>
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <style name="TextAppearance.Compat.Notification.Title.Media"/>
+    <style name="Widget.Compat.NotificationActionContainer" parent=""/>
+    <style name="Widget.Compat.NotificationActionText" parent=""/>
+    <style name="Widget.Support.CoordinatorLayout" parent="android:Widget">
+        <item name="statusBarBackground">#000000</item>
+    </style>
+    <style name="bigText">
+    <item name="android:textSize">@dimen/BiggerTextSize</item>
+    <item name="android:ellipsize">end</item>
+    <item name="android:singleLine">true</item>
+  </style>
+    <style name="bigTextwhite" parent="bigText">
+    <item name="android:textColor">@android:color/white</item>
+  </style>
+    <style name="middleText">
+    <item name="android:textSize">@dimen/MiddleTextSize</item>
+    <item name="android:ellipsize">end</item>
+    <item name="android:singleLine">true</item>
+  </style>
+    <style name="middleTextwhite" parent="middleText">
+    <item name="android:textColor">@android:color/white</item>
+  </style>
+    <style name="normalText">
+    <item name="android:textSize">@dimen/NormalTextSize</item>
+    <item name="android:ellipsize">end</item>
+    <item name="android:singleLine">true</item>
+  </style>
+    <style name="normalTextwhite" parent="normalText">
+    <item name="android:textColor">@android:color/white</item>
+  </style>
+    <style name="smallText">
+    <item name="android:textSize">@dimen/SmallTextSize</item>
+    <item name="android:ellipsize">end</item>
+    <item name="android:singleLine">true</item>
+  </style>
+    <style name="smallTexttwhite" parent="smallText">
+    <item name="android:textColor">@android:color/white</item>
+  </style>
+</resources>

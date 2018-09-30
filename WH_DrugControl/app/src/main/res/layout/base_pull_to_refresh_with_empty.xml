@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/accept_drugs_top"
+        layout="@layout/qiandw_system_header_include"/>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/pull_to_refresh_list_view"
+        android:layout_width="match_parent"
+        android:divider="#d9d9d9"
+        android:dividerHeight="0.5dp"
+        android:layout_below="@+id/accept_drugs_top"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/default_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/no_data"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name"
+        android:layout_gravity="center"/>
+
+</RelativeLayout>

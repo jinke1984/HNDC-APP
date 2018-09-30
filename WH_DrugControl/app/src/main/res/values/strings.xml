@@ -1,0 +1,783 @@
+<resources>
+    <string name="app_name">贵阳数据禁毒</string>
+
+    <string name="h_app_name">海南禁毒</string>
+
+    <!--- 公共 -->
+    <string name="copyright_name">技术支持:中国移动通信集团海南有限公司</string>
+    <string name="gys">贵阳市</string>
+    <string name="back">返回</string>
+    <string name="help">帮助</string>
+    <string name="shi">是</string>
+    <string name="fou">否</string>
+    <string name="qd">确定</string>
+    <string name="qx">取消</string>
+    <string name="shaxin">刷新</string>
+    <string name="tishi">提示</string>
+    <string name="zcdjtc">再次点击退出</string>
+    <string name="wu">无</string>
+    <string name="common_today">今天</string>
+    <string name="bbyszx">版本已是最新!</string>
+    <string name="common_network_unavailable">当前网络不可用，请检查你的网络设置</string>
+    <string name="server_err">获取服务器资源失败</string>
+    <string name="xz">新增</string>
+    <string name="bc">保存</string>
+    <string name="shanchu">删除</string>
+    <string name="xiugai">修改</string>
+    <string name="permission_setting_tip">当前应用缺少必要权限\n请点击\"设置\"-\"权限\"-打开所需权限。\n最后点击两次后退按钮，即可返回。</string>
+    <string name="common_setting">设置</string>
+    <string name="common_exit">退出</string>
+    <string name="pz">拍照</string>
+    <string name="xc">相册</string>
+    <string name="video">视频</string>
+    <string name="sctp">上传图片</string>
+    <string name="insertsdcard">对不起，请插入SD卡</string>
+    <string name="notSupport">对不起，暂不支持该操作</string>
+    <string name="Fail">失败</string>
+    <string name="bz">备注</string>
+    <string name="xxtxwcscfj">请将信息填写完整，并上传附件!</string>
+    <string name="fjsccg">附件上传成功</string>
+    <string name="fjscsb">附件上传失败</string>
+    <string name="scfjyl">上传附件预览</string>
+    <string name="sccg">删除成功!</string>
+    <string name="scsb">删除失败!</string>
+    <string name="xgcg">修改成功!</string>
+    <string name="xgsb">删除成功!</string>
+    <string name="nqdytcm">您确定要退出吗&#63;</string>
+    <string name="p_name">智慧禁毒管理平台</string>
+    <string name="flsm">法律声明</string>
+    <string name="yhxy">用户协议</string>
+    <string name="cwm">错误码&#58;</string>
+    <string name="cwxx">错误信息&#58;</string>
+    <string name="rlbdsbts">经系统检测,该对象与被检测吸毒人员相似度较低,不能进行该操作!</string>
+    <string name="xzdqft">新增访谈</string>
+    <string name="xzdqlj">新增尿检</string>
+    <string name="xzdqbg">新增报告</string>
+    <string name="wwts">%1$s需要运行在互联网环境,请在其它界面点击退出登录按钮后,关闭VPN客户端后,在登录界面选择互联网环境后登录再操作!</string>
+    <string name="nwts">该功能需要运行在政务外网环境,请在其它界面点击退出登录按钮后,打开VPN客户端后,在登录界面选择政务外网环境后登录再操作!</string>
+    <string name="hlw">互联网</string>
+    <string name="zwww">政务外网</string>
+    <string name="common_yesterday">昨天</string>
+    <string name="common_date_format_month_day">MM月dd日</string>
+    <string name="common_date_format_year_month_day">yyyy年MM月dd日</string>
+
+    <!-- Pull to refresh -->
+    <string name="pull_to_refresh_footer_refreshing_label">加载中\u2026</string>
+    <string name="refresh_pull_to_refresh">下拉可以刷新&#8230;</string>
+    <string name="refresh_release_to_refresh">松开可以刷新&#8230;</string>
+    <string name="refresh_refreshing">正在努力加载中&#8230;</string>
+    <string name="ptr_start_pull_label">下拉进行刷新</string>
+    <string name="ptr_start_release_label">松开刷新…</string>
+    <string name="ptr_start_refreshing_label">加载中…</string>
+    <string name="ptr_end_pull_label">上拉显示更多</string>
+    <string name="ptr_end_release_label">松开加载</string>
+    <string name="ptr_end_refreshing_label">加载中…</string>
+    <string name="ptr_end_load_more">加载更多</string>
+
+    <!-- 手势密码 -->
+    <string name="gesture_title">设置手势密码</string>
+    <string name="gesture_toggle_on_success">手势密码开启成功</string>
+    <string name="gesture_toggle_off_success">手势密码关闭成功</string>
+    <string name="gesture_tips_first">请绘制手势密码</string>
+    <string name="gesture_tips_second">请再次绘制手势密码</string>
+    <string name="gesture_tips_err_rule">请至少连接4个点</string>
+    <string name="gesture_tips_err_not_equal">与上一次绘制的密码不一致，请重新绘制</string>
+    <string name="gesture_tips_pwd">请绘制解锁密码</string>
+    <string name="gesture_tips_pwd_success">手势密码设置成功</string>
+    <string name="gesture_tips_pwd_err">密码错误</string>
+    <string name="gesture_login_reset">重新开始设置手势密码</string>
+    <string name="gesture_login_forget">忘记密码</string>
+    <string name="gesture_login_forget_relogin">忘记密码需要重新登录</string>
+
+    <!-- 登录 -->
+    <string name="dl">登录</string>
+    <string name="qsrmzdqp">请输入您的账户</string>
+    <string name="qsrnmm">请输入您的密码</string>
+    <string name="dlsb">登录失败,请检查您的账户和密码，稍后再试!</string>
+    <string name="wlhj">网络环境&#58;</string>
+
+    <!-- 首页 -->
+    <string name="xdry">吸毒人员</string>
+    <string name="wdxx">我的消息</string>
+    <string name="wdgz">我的工作</string>
+    <string name="qdjsfjxss">请点击上方输入框进行搜索!</string>
+
+    <!-- 我的工作 -->
+    <string name="gztx">工作提醒</string>
+    <string name="dqft">访谈</string>
+    <string name="dqlj">尿检</string>
+    <string name="dqbg">报告</string>
+    <string name="dqpg">评估</string>
+    <string name="dtxxwh">动态信息维护</string>
+    <string name="wd">未读&#58;%1$s条</string>
+    <string name="wdrw">我的任务</string>
+    <string name="zhl">综合类</string>
+    <string name="xtyyl">系统应用类</string>
+    <string name="ywzsl">业务知识类</string>
+    <string name="dajsl">档案建设类</string>
+    <string name="sjgzl">实际工作类</string>
+    <string name="qtl">其他类</string>
+    <string name="qysm">%1$s-%2$s</string>
+    <string name="zsh">早上好</string>
+    <string name="xwh">下午好</string>
+    <string name="wsh">晚上好</string>
+    <string name="xmqy">%1$s &#58; %2$s &#40; %3$s &#41;</string>
+    <string name="dqgz">定期工作</string>
+    <string name="pfrw">派发任务</string>
+    <string name="dtgz">动态关注</string>
+    <string name="gzyjwc">该项工作已经处理完成!</string>
+
+    <!-- 吸毒人员 -->
+    <string name="ndqssglqw">您当前所属管理区域为:</string>
+    <string name="djckqyryxx">点击查看区域人员信息</string>
+    <string name="djjrss">点击进行搜索</string>
+
+    <!-- 搜索界面 -->
+    <string name="qsrsfzhhmz">请输入身份证号码或者姓名</string>
+    <string name="ss">搜索</string>
+    <string name="qsrycxddx">请输入要查询的关键字</string>
+    <string name="xm">姓名&#58;%1$s</string>
+    <string name="xb">性别&#58;%1$s</string>
+    <string name="sfzhm">身份证号&#58;%1$s</string>
+    <string name="sfzhmlable">身份证号：%1$s</string>
+    <string name="hjssqy">户籍所在地&#58;%1$s</string>
+    <string name="yddhm">移动电话&#58;%1$s</string>
+    <string name="cccg">关注成功</string>
+    <string name="qxsc">取消关注</string>
+    <string name="ccsb">操作失败,请稍后再试!</string>
+
+    <!-- 新增吸毒人员 -->
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="jbxx">基本信息</string>
+    <string name="lxfsjdz">联系方式及地址</string>
+    <string name="whjnjgzqk">文化技能及工作情况</string>
+    <string name="xdqk">吸毒情况</string>
+    <string name="zpxx">网格员、社区民警及照片信息</string>
+    <string name="uploadxdryzp">上传吸毒人员照片</string>
+    <string name="sfzh">身份证号&#58;</string>
+    <string name="xmm">姓名&#58;</string>
+    <string name="cym">曾用名&#58;</string>
+    <string name="bmch">别名&#47;绰号&#58;</string>
+    <string name="xbm">性别&#58;</string>
+    <string name="nan">男</string>
+    <string name="nv">女</string>
+    <string name="sscq">所属社区&#58;</string>
+    <string name="mz">民族&#58;</string>
+    <string name="sg">身高&#040;单位&#58;cm&#041;&#58;</string>
+    <string name="futz">是否与父母同住&#58;</string>
+    <string name="hyzk">婚姻状况&#58;</string>
+    <string name="stzk">身体状况&#58;</string>
+    <string name="stxxzk">身体详细情况&#58;</string>
+    <string name="jtqk">家庭情况&#58;</string>
+    <string name="syb">上一步</string>
+    <string name="xyb">下一步</string>
+    <string name="save">保存</string>
+    <string name="hjszd">户籍所在地&#58;</string>
+    <string name="hjszdxxdz">户籍所在地详细地址&#58;</string>
+    <string name="xjzd">现居住地&#58;</string>
+    <string name="xjzdxxdz">现居住地详细地址&#58;</string>
+    <string name="yddh">移动电话&#58;</string>
+    <string name="gddh">固定电话&#58;</string>
+    <string name="qqhm">QQ号码&#58;</string>
+    <string name="wxh">微信号&#58;</string>
+    <string name="hlwyx">互联网邮箱&#58;</string>
+    <string name="zzmm">政治面貌&#58;</string>
+    <string name="zzmmxx">政治面貌详细情况&#58;</string>
+    <string name="whcd">文化程度&#58;</string>
+    <string name="sfcjgzypx">是否参加过职业培训&#58;</string>
+    <string name="jyqk">就业情况&#58;</string>
+    <string name="srqk">收入情况&#58;</string>
+    <string name="ccxdrq">初次吸毒日期&#58;</string>
+    <string name="lydipz">滥用毒品种类&#58;</string>
+    <string name="wffzqk">违法犯罪情况&#58;</string>
+    <string name="wgy">网格员&#58;</string>
+    <string name="sqmj">社区民警&#58;</string>
+    <string name="qtdpxq">其他毒品详情&#58;</string>
+    <string name="qttcjn">其他特长技能&#58;</string>
+    <string name="tcjn">特长技能&#58;</string>
+    <string name="shbzqk">社会保障情况&#58;</string>
+    <string name="grjl">个人简历&#58;</string>
+
+    <!-- 通知公告 -->
+    <string name="tzgg">通知公告</string>
+    <string name="fbdw">发布单位&#58;%1$s</string>
+    <string name="fbsj">发布时间&#58;%1$s</string>
+
+    <!-- 人员详情 -->
+    <string name="xdryxx">吸毒人员信息</string>
+    <string name="xmhxb">%1$s&#47;%2$s</string>
+    <string name="jczl">基础资料</string>
+    <string name="sjcx">综合查询</string>
+    <string name="cjxx">采集信息</string>
+    <string name="jzxx">居住信息</string>
+    <string name="wslr">文书录入</string>
+    <string name="qjcz">请假记录</string>
+    <string name="nyxtfdx">您确定要给%1$s发短信吗？</string>
+    <string name="myhm">该吸毒人员没有输入手机号码!</string>
+    <string name="hqdacg">获取档案数据成功!</string>
+    <string name="hqdasb">获取档案数据失败!</string>
+    <string name="rybdsfkszx">社区戒毒/社区康复人员是否已报到开始执行?(此功能需要退出VPN客户端后,在互联网环境下使用)</string>
+    <string name="xqdwsbs">你好,获取位置失败,若要继续上传报到照片,请点击返回后重新进入!</string>
+
+    <!-- 基本信息 -->
+    <string name="xmwm">姓名</string>
+    <string name="xinb">性别</string>
+    <string name="csny">出生日期</string>
+    <string name="cymbm">曾用名</string>
+    <string name="whcdwm">文化程度</string>
+    <string name="hjssqywm">户籍所属区域</string>
+    <string name="lxfs">联系方式</string>
+    <string name="hjxxdz">户籍详细地址</string>
+    <string name="xjzdxz">现居住地详址</string>
+    <string name="xdryxq">%1$s&#45;基础资料</string>
+    <string name="wm">文盲&#47;半文盲</string>
+    <string name="xx">小学</string>
+    <string name="cz">初中</string>
+    <string name="gz">高中&#40;含中专&#44;高职&#41;</string>
+    <string name="dxzk">大学专科</string>
+    <string name="dxbkjys">大学本科及以上</string>
+
+    <!-- 尿检记录 -->
+    <string name="njjl">%1$s&#45;尿检记录</string>
+    <string name="xyzssnj">是否需要做实时尿检?</string>
+
+    <!-- 尿检详情 -->
+    <string name="njlx">尿检类型&#58;%1$s</string>
+    <string name="njjg">尿检结果&#58;%1$s</string>
+    <string name="njrq">尿检日期&#58;%1$s</string>
+    <string name="jcr">检测人&#58;%1$s</string>
+    <string name="njdd">尿检地点&#58;%1$s</string>
+    <string name="cjrq">创建日期&#58;%1$s</string>
+    <string name="yinx">阴性</string>
+    <string name="yanx">阳性</string>
+    <string name="dqnj">尿检</string>
+    <string name="tjnj">突击尿检</string>
+    <string name="njxqbt">%1$s第%2$s次尿检</string>
+
+    <!-- 新增尿检 -->
+    <string name="njlxw">尿检类型&#58;</string>
+    <string name="njrqw">尿检日期&#58;</string>
+    <string name="njcs">尿检次数:</string>
+    <string name="sdnj">%1$s的尿检</string>
+    <string name="njddw">尿检地点&#58;</string>
+    <string name="jcrw">检测人&#58;</string>
+    <string name="njjgm">尿检结果&#58;</string>
+    <string name="smscfj">扫描上传附件&#58;</string>
+    <string name="sm">扫描</string>
+    <string name="upload_attachment_err">上传附件失败</string>
+    <string name="upload_success">保存成功</string>
+    <string name="upload_failed">保存失败</string>
+    <string name="common_err_tips">请将信息填写完整，并上传附件！</string>
+    <string name="qjxxtxwz">请将信息填写完整！</string>
+    <string name="person_exist">该人员信息已存在</string>
+    <string name="person_not_exist">可添加该人员</string>
+    <string name="nqdynj">你确定要%1$s这条尿检记录?</string>
+
+    <!-- 定期访谈 -->
+    <string name="dwdd">定位地点:</string>
+    <string name="djscdw">点击上传定位</string>
+    <string name="sddqft">%1$s&#45;访谈</string>
+    <string name="thdx">谈话对象&#40;家属&#41;&#58;%1$s</string>
+    <string name="thcs">谈话次数&#58;%1$s次</string>
+    <string name="sfmdm">是否面对面&#58;%1$s</string>
+    <string name="thrq">谈话日期&#58;%1$s</string>
+    <string name="thr">谈话人&#58;</string>
+    <string name="thdxw">谈话对象&#40;家属&#41;&#58;</string>
+    <string name="thcsw">谈话次数&#58;</string>
+    <string name="thdd">谈话地点&#58;</string>
+    <string name="thrqw">谈话日期&#58;</string>
+    <string name="ci">%1$s次</string>
+    <string name="ftxqbt">%1$s第%2$s次访谈</string>
+    <string name="sfsmdmth">是否是面对面谈话？</string>
+    <string name="dqftbccg">访谈保存成功!</string>
+    <string name="dqftbcsb">访谈保存失败,请稍后再试!</string>
+    <string name="dqftdwts">获取实时位置失败,请点击返回退出录入界面,再点击新增重新录入!</string>
+    <string name="dqftcz">你确定要%1$s这条访谈?</string>
+    <string name="mdm">是否修改面对面&#58;</string>
+    <string name="ftmyzht">活体检测失败,点击确定您所录入的谈话将自动修改为不是面对面谈话,点击取消将退出这个录入界面,请点击新增重新录入!</string>
+    <string name="ftmyzhtrnbd">人脸比对失败,点击确定您所录入的谈话将自动修改为不是面对面谈话,点击取消将退出这个录入界面,请点击新增重新录入!</string>
+    <string name="xtmyjcdspsdzp">系统没有检测到您所拍摄的照片,点击确定您所录入的谈话将自动修改为不是面对面谈话,点击取消将退出这个录入界面,请点击新增重新录入!</string>
+
+    <!-- 面对面 -->
+    <string name="ycsp">远程访谈</string>
+    <string name="htjc">人脸识别</string>
+    <string name="pzfs">拍照方式</string>
+    <string name="smfs">扫码方式</string>
+    <string name="smcg">扫描成功</string>
+    <string name="smsb">亲，扫描二维码失败，请确认二维码生成是否正确！</string>
+    <string name="smryftrbip">亲，扫描的二维码与访谈人不匹配！</string>
+    <string name="smrybgrbip">亲，扫描的二维码与报告人不匹配！</string>
+    <string name="tcdlsb">退出登录失败!</string>
+    <string name="dqyszxbb">当前已经是最新版本！</string>
+    <string name="smlxcu">扫描类型错误</string>
+    <!-- 状态错误提示 -->
+    <string name="qmqbzc">亲，目前不支持这个扫描类型!</string>
+    <string name="ccutse">管控人员状态为中止/终止不能新增</string>
+    <string name="ccutss">管控人员状态为解除不能新增</string>
+    <string name="ccutsj">管控人员状态为死亡不能新增</string>
+    <string name="zmgkrybsy">这名管控人员不是你的管控人员</string>
+
+    <!-- 扫描界面 -->
+    <string name="msg_default_type">类型</string>
+    <string name="msg_default_time">时间</string>
+    <string name="msg_default_meta">元数据</string>
+    <string name="button_google_shopper">谷歌购物</string>
+    <string name="msg_default_status">将条码放置于镜头范围内进行扫描。  </string>
+    <string name="contents_text">纯文本</string>
+    <string name="contents_email">Email地址</string>
+    <string name="contents_location">地理坐标</string>
+    <string name="contents_phone">电话号码</string>
+    <string name="contents_sms">短信地址</string>
+    <string name="contents_contact">Contact info</string>
+    <string name="zxing_url">http://code.google.com/p/zxing</string>
+    <string name="msg_camera_framework_bug">很抱歉，机器人相机出现问题。您可能需要重新启动设备。</string>
+    <string name="button_ok">确定</string>
+    <string name="qsmsb">扫描失败</string>
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="msg_default_format">格式</string>
+
+    <!-- 执行地变更记录 -->
+    <string name="zxdbgjl">%1$s&#45;执行地变更记录</string>
+
+    <!-- 请假操作 -->
+    <string name="sdqj">%1$s&#45;请假</string>
+    <string name="xzqj">新增请假</string>
+    <string name="qjsqrq">申请日期&#58;%1$s</string>
+    <string name="qjpzrq">批准日期&#58;%1$s</string>
+    <string name="qjkssj">开始时间&#58;%1$s</string>
+    <string name="qjjssj">结束时间&#58;%1$s</string>
+    <string name="qjqwdz">前往地址&#58;%1$s</string>
+    <string name="qjqjsy">请假事由&#58;%1$s</string>
+
+    <!-- 定期报告 -->
+    <string name="sddqbg">%1$s&#45;报告</string>
+    <string name="bgrq">报告日期&#58;%1$s</string>
+    <string name="bgdd">报告地点&#58;%1$s</string>
+    <string name="bgcs">报告次数&#58;%1$s次</string>
+    <string name="bgr">记录人&#58;</string>
+    <string name="bgrqw">报告日期&#58;</string>
+    <string name="bgddw">报告地点&#58;</string>
+    <string name="bgxqbt">%1$s的报告</string>
+    <string name="bgcsw">报告次数&#58;</string>
+    <string name="sfsmdmbxbg">是否是面对面编写报告？</string>
+    <string name="dqbgbccg">报告保存成功!</string>
+    <string name="dqbgbcsb">报告保存失败，请稍后再试!</string>
+    <string name="dqbgcz">你确定要%1$s这条报告?</string>
+    <string name="bgmyzht">活体检测失败,点击确定您所录入的报告将自动修改为不是面对面报告,点击取消将退出这个录入界面,请点击新增重新录入!</string>
+    <string name="bgmyzhtrnbd">人脸比对失败,点击确定您所录入的报告将自动修改为不是面对面报告,点击取消将退出这个录入界面,请点击新增重新录入!</string>
+    <string name="xtmyjcdspzpft">系统没有检测到您所拍摄的照片,点击确定您所录入的报告将自动修改为不是面对面报告,点击取消将退出这个录入界面,请点击新增重新录入!</string>
+
+    <!-- 报告和访谈的错误提示 -->
+    <string name="thrmy">没有输入谈话人</string>
+    <string name="thdxmy">没有输入谈话对象</string>
+    <string name="thcsmy">没有输入谈话次数</string>
+    <string name="thddmy">没有输入谈话地点</string>
+    <string name="thwzjtmy">没有谈话位置截图附件</string>
+    <string name="no_report_location_map_file">没有报告位置截图附件!</string>
+    <string name="no_record_man">请输入记录人</string>
+    <string name="no_record_address">请输入报告地点</string>
+    <string name="qsrbgcs">请输入报告次数</string>
+    <string name="no_address_located">请点击上传定位</string>
+    <string name="qxscwzjtfj">请先上传位置截图附件!</string>
+
+    <!-- 人脸比较和活物检测相关提示 -->
+    <string name="thjcsb">活体检测失败,不能进行该操作!</string>
+    <string name="thjccgdj">活体检测成功,可以开始拍照!</string>
+    <string name="eljcsb">人脸比对失败,不能进行该操作!</string>
+
+    <!-- 居住位置图 -->
+    <string name="sdjzwzt">%1$s&#45;居住位置图</string>
+    <string name="wzt">位置图</string>
+    <string name="fwzp">房屋照片</string>
+    <string name="dtwzts">请注意当地图显示您当前的正确位置再点击保存!</string>
+    <string name="dwdqwz">定位当前位置</string>
+    <string name="sfbcdqwz">是否保存当前位置?</string>
+    <string name="dtmyjzwc">地图尚未加载完成，请稍后!</string>
+    <string name="xzjzwztfwzp">新增位置图和房屋照片</string>
+
+    <!-- 截图界面 -->
+    <string name="smtssm">请把需要扫描的文件置于红框之类，对焦完成后点击屏幕进行扫描!</string>
+
+    <!-- 文书录入 -->
+    <string name="myda">该吸毒人员还没有建立档案，不能进行文书录入！</string>
+    <string name="myjlda">该吸毒人员还没有建立档案!</string>
+    <string name="jdsmylr">该吸毒人员的决定书还未录入!</string>
+    <string name="wslb">%1$s&#45;文书列表</string>
+    <string name="jds">%1$s&#45;决定书</string>
+    <string name="gzs">%1$s&#45;告知书</string>
+    <string name="xys">%1$s&#45;协议书</string>
+    <string name="rysz">%1$s&#45;人员守则</string>
+    <string name="jhs">%1$s&#45;计划书</string>
+    <string name="qjb">%1$s&#45;请假表</string>
+    <string name="qjs">%1$s&#45;劝诫书</string>
+    <string name="gjs">%1$s&#45;告诫书</string>
+    <string name="wfxyjl">%1$s&#45;违反协议记录</string>
+    <string name="wfjl">%1$s&#45;违反记录</string>
+    <string name="zzjl">%1$s&#45;中止记录</string>
+    <string name="jxzx">%1$s&#45;继续执行</string>
+    <string name="qjjl">%1$s&#45;请假记录</string>
+    <string name="jdslx">决定书类型</string>
+    <string name="sqjd">社区戒毒</string>
+    <string name="sqkf">社区康复</string>
+    <string name="sfygajds">是否有公安决定书</string>
+    <string name="you">有</string>
+    <string name="w">无</string>
+    <string name="wjdsyy">无决定书原因</string>
+    <string name="jdswh">决定书文号:</string>
+    <string name="g">公&#40;</string>
+    <string name="skjz">&#41;社康决字&#40;</string>
+    <string name="h">号</string>
+    <string name="yk">&#41;</string>
+    <string name="ksrq">开始日期</string>
+    <string name="jsrq">结束日期</string>
+    <string name="gajgmc">公安机关名称</string>
+    <string name="bdrq">报到日期</string>
+    <string name="chxq">查获详情</string>
+    <string name="sdjds">%1$s的决定书</string>
+    <string name="gzslx">告知书类型</string>
+    <string name="bgzr">被告知人</string>
+    <string name="xdrq">下达日期</string>
+    <string name="xdgajg">下达公安机关</string>
+    <string name="qsrq">签收日期</string>
+    <string name="gzrq">公安机关盖章日期</string>
+    <string name="jdgzz">禁毒工作站</string>
+    <string name="gkry">管控人员</string>
+    <string name="gzzgzrq">禁毒工作站盖章日期</string>
+    <string name="qzrq">签字日期</string>
+    <string name="ssdr">受送达人</string>
+    <string name="sdsj">送达时间</string>
+    <string name="sddd">送达地点</string>
+    <string name="sdfs">送达方式</string>
+    <string name="sdfsjt">其他具体方式</string>
+    <string name="sfjs">是否拒收</string>
+    <string name="jsyy">拒收原因</string>
+    <string name="sfds">是否代收</string>
+    <string name="dsr">代收人</string>
+    <string name="dsyy">代收原因</string>
+    <string name="yssdrgx">与受送达人关系</string>
+    <string name="jzr">见证人</string>
+    <string name="cjwhjdgzz">居&#40;村&#41;委会禁毒工作站</string>
+    <string name="jhsgzrq">盖章日期</string>
+    <string name="bjjhs">帮教计划</string>
+    <string name="bjjhspr">帮教计划审批人</string>
+    <string name="bqjr">被劝诫人</string>
+    <string name="qjr">劝诫人</string>
+    <string name="qjrdw">劝诫人单位</string>
+    <string name="qjsj">劝诫时间</string>
+    <string name="qjdd">劝诫地点</string>
+    <string name="jzrzjlx">见证人证件类型</string>
+    <string name="jzrzjhm">见证人证件号码</string>
+    <string name="szlkts">擅自离开天数</string>
+    <string name="szlkcs">擅自离开次数</string>
+    <string name="qjyy">劝诫原因</string>
+    <string name="gjyy">告诫原因</string>
+    <string name="qjyyqt">其他具体原因</string>
+    <string name="tbjjcs">逃避&#47;拒绝次数</string>
+    <string name="tbjjyf">逃避&#47;拒绝月份</string>
+    <string name="gjr">告诫人</string>
+    <string name="gjrdw">告诫人单位</string>
+    <string name="gjsj">告诫时间</string>
+    <string name="gjdd">告诫地点</string>
+    <string name="sssq">所属社区</string>
+    <string name="wfrq">违反日期</string>
+    <string name="wfcd">违反程度</string>
+    <string name="sffx">是否复吸</string>
+    <string name="clqk">处理情况</string>
+    <string name="wfss">违反事实</string>
+    <string name="zzyy">中止原因</string>
+    <string name="zzrq">中止日期</string>
+    <string name="ssqy">所属区域</string>
+    <string name="tyjg">同意机关</string>
+    <string name="qzcs">强制措施</string>
+    <string name="glqx">隔离期限</string>
+    <string name="sxfzms">涉嫌犯罪描述</string>
+    <string name="fjsm">附件说明</string>
+    <string name="zzksrq">中止开始日期</string>
+    <string name="jczzyy">解除中止原因</string>
+    <string name="jczzrq">解除中止日期</string>
+    <string name="nolevelagreement">暂无该级别的违反协议</string>
+    <string name="qwdq">前往地区</string>
+    <string name="qjksrq">请假开始日期</string>
+    <string name="qjjsrq">请假结束日期</string>
+    <string name="qjsy">请假事由</string>
+    <string name="sqrq">申请日期</string>
+    <string name="xzspr">选择审批人</string>
+    <string name="no_break_list">无中止记录</string>
+    <string name="violate_level">违反协议级别：%1$s级</string>
+    <string name="violate_date">违反时间：%1$s</string>
+    <string name="check_detail">查看详情</string>
+    
+    <!-- 附件预览 -->
+    <string name="fjyl">附件预览</string>
+    <string name="jcwl">经常往来</string>
+    <string name="oewl">偶尔往来</string>
+    <string name="bwl">不往来</string>
+    <string name="check_id_card">查询身份证</string>
+    <string name="input_idcard">身份证号码错误，或该人员已存在</string>
+    <string name="toast_input_idcard">请查询身份证是否存在</string>
+    <string name="toast_valid_tel">请输入正确的移动电话号码或固定电话号码</string>
+    <string name="toast_valid_email">请输入正确的email地址</string>
+    <string name="toast_valid_height">请输入正确的身高值</string>
+    <string name="addperson">新增吸毒人员</string>
+    <string name="cacheperson">吸毒人员本地缓存</string>
+    <string name="new_notice">公告</string>
+
+    <!-- 我的消息 -->
+    <string name="jgxx">监管消息</string>
+    <string name="xxyd">学习园地</string>
+    <string name="xtxx">系统消息</string>
+    <string name="input_corret_number">请输入正确的数字</string>
+    <string name="reject_doc_end">当前档案已归档，不能修改或删除</string>
+    <string name="reject_doc_status1">当前档案为正在执行状态，不能新增继续执行记录</string>
+    <string name="reject_doc_status3">当前档案状态下，只能录入继续执行记录</string>
+    <string name="reject_doc_status4">当前档案为终止状态，只能进行查看，不能进行其他操作</string>
+    <string name="reject_doc_status9">当前档案状态下，不能修改或删除</string>
+    <string name="input_string_len">输入内容长度必须介于%1$d和%2$d之间</string>
+
+
+    <!-- 我的消息 -->
+    <string name="lt">聊天</string>
+    <string name="fs">发送</string>
+    <string name="qsrxx">请输入聊天内容!</string>
+    <string name="sfscglt">是否删除该聊天!</string>
+    <string name="xxfssb">消息发送失败!请重新发送!</string>
+    <string name="dfbzx">对方不在线或者重新登录!</string>
+    <string name="qsrltnr">请输入聊天内容</string>
+    <string name="xtfscs">系统发送超时!</string>
+    <string name="sfsc">是否删除该条消息!</string>
+    <string name="xxtp">&#91;图片&#93;</string>
+    <string name="xxyy">&#91;语音&#93;</string>
+
+    <!-- 积分相关 -->
+    <string name="byjf">本月积分</string>
+    <string name="syjf">上月积分</string>
+    <string name="jf">积分:%1$s</string>
+    <string name="sdjf">%1$s&#45;积分详情</string>
+    <string name="jflx">积分类型:</string>
+    <string name="jfjsrq">计算日期:</string>
+    <string name="jfmx">积分明细:</string>
+    <string name="jfxq">积分详情</string>
+    <string name="dqjf">积分:</string>
+
+    <!-- 综合查询 -->
+    <string name="zhcx">-综合查询</string>
+    <string name="cxqbzhxx">查询全部综合信息</string>
+    <string name="zldw">决定机关:</string>
+    <string name="zxdq">执行地区:</string>
+    <string name="zxcs">执行措施:</string>
+    <string name="zxksrq">执行开始日期:</string>
+    <string name="zxbdrq">执行报到日期:</string>
+    <string name="zxjsrq">执行结束日期:</string>
+    <string name="dqzt">当前状态:</string>
+    <string name="lydpzl">滥用毒品种类:</string>
+    <string name="lydpfs">滥用毒品方式:</string>
+    <string name="gkzrr">管控责任人:</string>
+    <string name="zxdw">执行单位:</string>
+
+    <string name="sqjdkf">社区戒毒/社区康复信息</string>
+    <string name="jssqh">社会化戒毒康复服务信息</string>
+    <string name="ygqyjyxx">就业信息</string>
+    <string name="jsywwczl">接受药物维持治疗信息</string>
+    <string name="tsbqrycy">特殊病区入院/出院信息</string>
+    <string name="jdjgsrscs">戒毒监管场所入所/出所信息</string>
+    <string name="gababuch">公安办案部门查获信息</string>
+    <string name="zhycbccjsrq">最后一次被查处结束日期:</string>
+    <string name="ljjdcs">累计戒毒次数:</string>
+    <string name="ck">点击查看</string>
+    <string name="dqgkjb">当前管控等级:</string>
+    <string name="lxdh">联系电话:</string>
+
+
+    <!-- 阳光企业就业信息 -->
+    <string name="dqjydw">当前就业单位:</string>
+    <string name="jyzt">就业状态:</string>
+    <string name="ruzrq">入职日期:</string>
+    <string name="dqyxqk">当前月薪情况:</string>
+    <string name="qjqk">考勤记录:</string>
+    <string name="lzrq">离职日期:</string>
+    <string name="jytjjl">就业推荐记录:</string>
+    <string name="jytjjll">就业推荐记录</string>
+    <string name="jyazjl">就业安置记录:</string>
+    <string name="jyazjll">就业安置记录</string>
+    <string name="lzyy">离职原因:</string>
+    <string name="qyzrr">单位联系人:</string>
+    <string name="qjqkm">考勤记录</string>
+    <string name="zdsj">诊断时间:</string>
+    <string name="zdzq">诊断周期:</string>
+    <string name="zdjg">诊断结果:</string>
+    <string name="zdjgou">诊断机构:</string>
+    <string name="zdxqsm">诊断详情说明:</string>
+    <string name="zxrq">咨询日期:</string>
+    <string name="zxs">咨询师:</string>
+    <string name="zxsszjg">咨询师所在机构:</string>
+    <string name="xlpgdjj">心理评估等级:</string>
+
+    <!-- 服药情况详情 -->
+    <string name="brbh">病人编号:</string>
+    <string name="zsbh">门诊编号:</string>
+    <string name="zljl">治疗剂量(ml):</string>
+    <string name="fyrq">服药日期:</string>
+    <!-- 接受药物维持治疗信息 -->
+    <string name="wczlmzmc">维持治疗门诊:</string>
+    <string name="rzurq">入组日期:</string>
+    <string name="scfyrq">首次服药日期:</string>
+    <string name="zjycfyrq">最近一次服药日期:</string>
+    <string name="fyqk">服药情况:</string>
+    <string name="fyqks">服药情况</string>
+    <string name="zz_rq">转诊日期:</string>
+    <string name="zrzsmc">转入诊所名称:</string>
+    <string name="tzrq">退诊日期:</string>
+    <string name="tzyy">退诊原因:</string>
+    <string name="mzzrr">门诊责任人:</string>
+
+    <!-- 接受社区化戒毒康复站服务信息 -->
+    <string name="zdmc">站点名称:</string>
+    <string name="rzrq">入站日期:</string>
+    <string name="zdzrr">站点联系人:</string>
+    <string name="jyyyqk">就业意愿情况:</string>
+    <string name="jyyyqks">-就业意愿情况</string>
+    <string name="bfjzqk">帮扶救助情况:</string>
+    <string name="bfjzqkk">-帮扶救助情况</string>
+    <string name="stjcqk">身体检查情况:</string>
+    <string name="stjcqkk">-身体检查情况</string>
+    <string name="xlzxqk">心理咨询情况:</string>
+    <string name="xlzxqkk">-心理咨询情况</string>
+    <string name="whcdd">文化程度:</string>
+    <string name="jnzc">技能专长:</string>
+    <string name="jyyx">就业意向:</string>
+    <string name="yxfw">月薪范围:</string>
+    <string name="sjly">就业意愿来源:</string>
+    <string name="cjsj">创建时间:</string>
+    <string name="zs">是否有证书:</string>
+    <string name="jzzzhgr">救助组织或个人:</string>
+    <string name="sfbldb">是否办理低保:</string>
+    <string name="dbj">低保金:</string>
+    <string name="xwhqdbz">希望获取的帮助:</string>
+    <string name="jzqk">救助情况:</string>
+    <string name="jzdxg">救助的效果:</string>
+    <string name="bfrq">帮扶日期:</string>
+
+    <!-- 出院/入院信息 -->
+    <string name="bqmc">病区名称:</string>
+    <string name="ryrq">入院日期:</string>
+    <string name="ryyy">入院原因:</string>
+    <string name="jtby">具体病因:</string>
+    <string name="rytj">入院途径:</string>
+    <string name="cyrq">出院日期:</string>
+    <string name="cyyy">出院原因:</string>
+    <string name="sfwflj">是否无缝衔接:</string>
+    <string name="cyqx">出院去向:</string>
+    <string name="bqzrr">病区联系人:</string>
+
+    <!-- 戒毒监管场所出场/入场信息 -->
+    <string name="csmc">场所名称:</string>
+    <string name="rsrq">入所日期:</string>
+    <string name="rsyy">入所原因:</string>
+    <string name="ayzm">案由/罪名:</string>
+    <string name="jdjg">决定机关:</string>
+    <string name="csrq">出所日期:</string>
+    <string name="csyy">出所原因:</string>
+    <string name="jhdw">接回单位:</string>
+    <string name="jhr">接回人:</string>
+    <string name="cszrr">场所责任人:</string>
+    <string name="ckxx">查看详情</string>
+
+    <!-- 公安办案部门查获信息 -->
+    <string name="chdw">查获单位:</string>
+    <string name="chrq">查获日期:</string>
+    <string name="dqsfxd">当前是否吸毒:</string>
+    <string name="sfcy">是否成瘾:</string>
+    <string name="cycd">成瘾程度:</string>
+    <string name="chdqy">查获地区域:</string>
+    <string name="chdd">查获地点:</string>
+    <string name="sfsdwffz">是否涉毒违法犯罪:</string>
+    <string name="aysxzm">案由/涉嫌罪名:</string>
+    <string name="czrq">处置日期:</string>
+    <string name="czjg">处置结果:</string>
+    <string name="czqx">处置去向:</string>
+    <string name="qxcs">去向场所:</string>
+
+    <string name="brxm">病人姓名:</string>
+    <string name="zsxm">门诊名称:</string>
+    <!-- 考勤详情 -->
+    <string name="kqsj">考勤时间:</string>
+    <string name="kqqk">考勤情况:</string>
+    <string name="kqsm">考勤说明:</string>
+    <string name="wgqk">违规情况:</string>
+    <string name="jyrq">就业日期:</string>
+
+    <string name="status_0">正在执行</string>
+    <string name="status_1">死亡</string>
+    <string name="status_2">请假</string>
+    <string name="status_3">中止</string>
+    <string name="status_4">终止</string>
+    <string name="status_5">变更执行地</string>
+    <string name="status_9">解除</string>
+    <string name="status_10">终止记录</string>
+    <string name="status_11">解除社戒社康通知</string>
+    <string name="status_12">销假</string>
+    <string name="status_13">工作小组</string>
+    <string name="params_check_null">无</string>
+
+    <string name="cjxxx">-采集信息</string>
+    <string name="about">其他</string>
+    <string name="app_version_no">版本号：%1$s</string>
+    <string name="sfsymm">是否使用手势密码</string>
+    <string name="grqd">个人签到</string>
+    <string name="qdao">签到</string>
+    <string name="qddwsb">获取位置信息失败</string>
+    <string name="qdcg">签到成功</string>
+    <string name="qdcx">签到查询</string>
+    <string name="ksqd">开始签到</string>
+    <string name="qdks">签到开始时间</string>
+    <string name="qdjs">签到结束时间</string>
+    <string name="qdjgcx">个人签到结果</string>
+    <string name="qdr">签到人&#58;%1$s</string>
+    <string name="qdsj">签到时间&#58;%1$s</string>
+
+    <!-- 我的关注 -->
+    <string name="wdgzhu">我的关注</string>
+    <string name="xzfs">请选择操作方式</string>
+    <string name="onlocation">定位中，请等待...</string>
+    <string name="onlocationsuccess">定位成功</string>
+
+    <!-- 任务发起界面 -->
+    <string name="sqsc">申请删除</string>
+    <string name="sqxg">申请修改</string>
+    <string name="xgsx">修改事项:</string>
+    <string name="scyy">删除原因:</string>
+    <string name="bzm">备注:</string>
+    <string name="sprm">审批人:</string>
+    <string name="qdtj">确定提交</string>
+    <string name="task_detail_title">任务详情</string>
+
+    <!-- 任务详情界面 -->
+    <string name="rwm">任务&#58;&#91;%1$s&#93;</string>
+    <string name="blrm">办理人&#58;%1$s</string>
+    <string name="kssjm">开始时间&#58;%1$s</string>
+    <string name="jssjm">结束时间&#58;%1$s</string>
+    <string name="pzm">批注&#58;%1$s</string>
+    <string name="sp">审批</string>
+    <string name="th">退回</string>
+    <string name="cl">处理</string>
+    <string name="rwmcm">任务名称&#58;%1$s</string>
+    <string name="xdrym">吸毒人员&#58;%1$s</string>
+    <string name="fqsjm">发起时间&#58;%1$s</string>
+
+    <!-- 变更执行地 -->
+    <string name="xzxdxxdz">现执行地详细地址&#58;%1$s</string>
+    <string name="nbgzxdxxdz">拟变更执行地详细地址&#58;%1$s</string>
+    <string name="nbgzxdmc">拟变更执行地名称&#58;%1$s</string>
+    <string name="bgyy">变更原因&#58;%1$s</string>
+    <string name="lksqrq">离开社区日期&#58;%1$s</string>
+    <string name="hjqy">户籍迁移</string>
+    <string name="xzzbg">现住址变更</string>
+    <string name="zykf">自愿康复</string>
+    <string name="wgjy">务工就业</string>
+    <string name="jx">就学</string>
+
+</resources>

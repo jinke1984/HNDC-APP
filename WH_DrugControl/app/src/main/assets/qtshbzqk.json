@@ -1,0 +1,7 @@
+[
+    { "id": "51", "text": "临时救助", "sc": "znwcn"},
+    { "id": "52", "text": "医疗救助", "sc": "wzn"},
+    { "id": "53", "text": "教育救助", "sc": "wyjrgtsh"},
+    { "id": "54", "text": "社会资助", "sc": "wyjrgtsh"},
+    { "id": "55", "text": "其他保障", "sc": "wyjrgtsh"}
+]

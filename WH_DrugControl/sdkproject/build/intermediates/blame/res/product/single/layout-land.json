@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout-land/cloudwalk_activity_facedect.xml",
+        "source": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/res/layout-land/cloudwalk_activity_facedect.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout-land/cloudwalk_activity_bestface.xml",
+        "source": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/res/layout-land/cloudwalk_activity_bestface.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout-land/cloudwalk_activity_facedect2.xml",
+        "source": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/res/layout-land/cloudwalk_activity_facedect2.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout-land/cloudwalk_activity_facedect_result.xml",
+        "source": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/res/layout-land/cloudwalk_activity_facedect_result.xml"
+    }
+]

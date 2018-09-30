@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_item_bg"
+    android:paddingTop="20dip"
+    android:paddingBottom="20dip"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="13.3dip"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+    <ImageView
+        android:id="@+id/name_mark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="13.3dip"
+        android:background="@drawable/mark"
+        android:contentDescription="@string/app_name"/>
+</RelativeLayout>

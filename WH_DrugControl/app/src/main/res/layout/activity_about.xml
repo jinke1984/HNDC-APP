@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/about_top"
+        layout="@layout/qiandw_system_header_include" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/code_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/code_z"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:text="扫一扫，下载筑城阳光"
+                android:textColor="#666"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#F0F0F0" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="20dp">
+
+                <ImageView
+                    android:id="@+id/iv_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@mipmap/about_logo" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/iv_logo"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_app_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_name"
+                        android:textColor="#000"
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:id="@+id/tv_app_version"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/copyright_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="版权所有：贵州海誉科技股份有限公司"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#F0F0F0" />
+
+            <TextView
+                android:id="@+id/tv_signIn"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/my_item_bg"
+                android:drawableLeft="@drawable/grqd"
+                android:drawablePadding="10dp"
+                android:drawableRight="@mipmap/right_arrow"
+                android:gravity="center_vertical"
+                android:text="@string/grqd"
+                android:textColor="#000" />
+
+            <View
+                android:id="@+id/iv_signIn"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#F0F0F0" />
+
+            <TextView
+                android:id="@+id/tv_flsm"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/my_item_bg"
+                android:drawableLeft="@drawable/flsm"
+                android:drawablePadding="10dp"
+                android:drawableRight="@mipmap/right_arrow"
+                android:gravity="center_vertical"
+                android:text="法律声明"
+                android:textColor="#000" />
+
+            <View
+                android:id="@+id/iv_flsm"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#F0F0F0" />
+
+
+            <TextView
+                android:id="@+id/tv_yhxy"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/my_item_bg"
+                android:drawableLeft="@drawable/yhxy"
+                android:drawablePadding="10dp"
+                android:drawableRight="@mipmap/right_arrow"
+                android:gravity="center_vertical"
+                android:text="用户协议"
+                android:textColor="#000" />
+
+            <View
+                android:id="@+id/iv_yhxy"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#F0F0F0" />
+
+            <TextView
+                android:id="@+id/tv_gesture"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/my_item_bg"
+                android:drawableLeft="@mipmap/about_gesture"
+                android:drawablePadding="10dp"
+                android:drawableRight="@mipmap/right_arrow"
+                android:gravity="center_vertical"
+                android:text="手势密码"
+                android:textColor="#000" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#F0F0F0" />
+
+            <TextView
+                android:id="@+id/tv_update"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/my_item_bg"
+                android:drawableLeft="@mipmap/about_update"
+                android:drawablePadding="10dp"
+                android:drawableRight="@mipmap/right_arrow"
+                android:gravity="center_vertical"
+                android:text="检查更新"
+                android:textColor="#000" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#F0F0F0" />
+
+            <TextView
+                android:id="@+id/tv_logout"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/my_item_bg"
+                android:drawableLeft="@mipmap/about_exit"
+                android:drawablePadding="10dp"
+                android:drawableRight="@mipmap/right_arrow"
+                android:gravity="center_vertical"
+                android:text="退出登录"
+                android:textColor="#000" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F0F0F0" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

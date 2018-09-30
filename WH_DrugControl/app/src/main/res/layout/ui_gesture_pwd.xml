@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="cn.com.jinke.wh_drugcontrol.password.GesturePwdUI">
+
+    <cn.com.jinke.wh_drugcontrol.password.GestureThumbnail
+        android:id="@+id/gesture_thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"/>
+
+    <TextView
+        android:id="@+id/gesture_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gesture_thumbnail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="绘制解锁图案"
+        android:textColor="#666"
+        android:textSize="16sp"/>
+
+    <FrameLayout
+        android:id="@+id/gesture_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/_gesture_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/login_bottom"/>
+
+    <TextView
+        android:id="@+id/gesture_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/_gesture_bottom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal"
+        android:text="账号密码登录"
+        android:textColor="#666"
+        android:textSize="16sp"/>
+
+
+</RelativeLayout>

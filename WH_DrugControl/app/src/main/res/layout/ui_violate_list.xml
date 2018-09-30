@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@color/background">
+
+    <include
+        layout="@layout/qiandw_system_header_include"/>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/violate_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@color/item_bg"
+        android:dividerHeight="0.5dp"
+        android:fadingEdge="none"
+        android:listSelector="@android:color/transparent"
+        android:paddingBottom="15dp"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrDrawable="@drawable/ptr_default_flip_gray"
+        ptr:ptrHeaderTextColor="@color/black"
+        ptr:ptrIndeterminateDrawable="@drawable/ptr_progress_rotate_gray"
+        ptr:ptrMode="pullFromStart"
+        ptr:ptrOverScroll="false"
+        ptr:ptrShowIndicator="false" />
+
+</LinearLayout>

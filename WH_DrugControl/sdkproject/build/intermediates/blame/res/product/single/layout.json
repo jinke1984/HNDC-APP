@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/cloudwalk_activity_live_server.xml",
+        "source": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/res/layout/cloudwalk_activity_live_server.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/notification_template_media_custom.xml",
+        "source": "/Users/jinke/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/653619f80cb579556f05292a9305eb76/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/notification_template_media.xml",
+        "source": "/Users/jinke/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/653619f80cb579556f05292a9305eb76/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/notification_template_big_media.xml",
+        "source": "/Users/jinke/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/653619f80cb579556f05292a9305eb76/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/notification_action.xml",
+        "source": "/Users/jinke/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/07187f7430ed83f9f980a90dbf5e4902/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/cloudwalk_activity_bank_card_result.xml",
+        "source": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/res/layout/cloudwalk_activity_bank_card_result.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/cloudwalk_activity_bankocr.xml",
+        "source": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/res/layout/cloudwalk_activity_bankocr.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/cloudwalk_activity_facedect_result.xml",
+        "source": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/res/layout/cloudwalk_activity_facedect_result.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/cloudwalk_progresshud_hud.xml",
+        "source": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/res/layout/cloudwalk_progresshud_hud.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/notification_action_tombstone.xml",
+        "source": "/Users/jinke/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/07187f7430ed83f9f980a90dbf5e4902/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/cloudwalk_layout_facedect_step_start.xml",
+        "source": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/res/layout/cloudwalk_layout_facedect_step_start.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/notification_media_cancel_action.xml",
+        "source": "/Users/jinke/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/653619f80cb579556f05292a9305eb76/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/jinke/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/07187f7430ed83f9f980a90dbf5e4902/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/notification_template_custom_big.xml",
+        "source": "/Users/jinke/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/07187f7430ed83f9f980a90dbf5e4902/res/layout/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/notification_template_big_media_custom.xml",
+        "source": "/Users/jinke/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/653619f80cb579556f05292a9305eb76/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/notification_template_part_time.xml",
+        "source": "/Users/jinke/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/07187f7430ed83f9f980a90dbf5e4902/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/cloudwalk_actionbar_layout.xml",
+        "source": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/res/layout/cloudwalk_actionbar_layout.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/notification_media_action.xml",
+        "source": "/Users/jinke/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/653619f80cb579556f05292a9305eb76/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/cloudwalk_activity_rect_ocr.xml",
+        "source": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/res/layout/cloudwalk_activity_rect_ocr.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/jinke/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/653619f80cb579556f05292a9305eb76/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/cloudwalk_activity_bestface.xml",
+        "source": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/res/layout/cloudwalk_activity_bestface.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/cloudwalk_activity_facedect.xml",
+        "source": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/res/layout/cloudwalk_activity_facedect.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/cloudwalk_layout_facedect_step.xml",
+        "source": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/res/layout/cloudwalk_layout_facedect_step.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/jinke/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/653619f80cb579556f05292a9305eb76/res/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/cloudwalk_layout_facedect_start.xml",
+        "source": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/res/layout/cloudwalk_layout_facedect_start.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/notification_template_icon_group.xml",
+        "source": "/Users/jinke/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/07187f7430ed83f9f980a90dbf5e4902/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/notification_template_lines_media.xml",
+        "source": "/Users/jinke/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/653619f80cb579556f05292a9305eb76/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/layout/cloudwalk_activity_ocrresult.xml",
+        "source": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/res/layout/cloudwalk_activity_ocrresult.xml"
+    }
+]

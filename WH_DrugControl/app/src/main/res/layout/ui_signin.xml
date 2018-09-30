@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customet="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        layout="@layout/qiandw_system_header_include"/>
+
+    <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+        android:id="@+id/sign_ksrq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13.3dip"
+        android:layout_marginLeft="8.5dip"
+        android:layout_marginRight="8.5dip"
+        customet:custom_enable="false"
+        customet:custom_iv="@drawable/time_button"
+        customet:custom_show="true"
+        customet:custom_tv="@string/qdks"/>
+
+    <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+        android:id="@+id/sign_jsrq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13.3dip"
+        android:layout_marginLeft="8.5dip"
+        android:layout_marginRight="8.5dip"
+        customet:custom_enable="false"
+        customet:custom_iv="@drawable/time_button"
+        customet:custom_show="true"
+        customet:custom_tv="@string/qdjs"/>
+
+    <Button
+        android:id="@+id/sign_query_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.5dip"
+        android:layout_marginRight="8.5dip"
+        android:layout_marginTop="15dip"
+        android:background="@drawable/login_button"
+        android:text="@string/qdcx"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/dotted_line"
+        android:layout_marginTop="13.3dip"
+        android:layerType="software" />
+
+    <Button
+        android:id="@+id/sign_begin_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.5dip"
+        android:layout_marginRight="8.5dip"
+        android:layout_marginTop="15dip"
+        android:background="@drawable/login_button"
+        android:text="@string/ksqd"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+</LinearLayout>

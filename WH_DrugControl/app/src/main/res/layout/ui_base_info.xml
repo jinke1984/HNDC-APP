@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customet="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/base_info_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip">
+
+        <TextView
+            android:id="@+id/base_info_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/blue_point"
+            android:drawablePadding="6dip"
+            android:drawableRight="@drawable/blue_point"
+            android:text="@string/jbxx"
+            android:textColor="@color/home_top_color"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1.3dip"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5.3dip"
+            android:layout_toLeftOf="@+id/base_info_tv"
+            android:background="@color/home_top_color"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1.3dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5.3dip"
+            android:layout_toRightOf="@+id/base_info_tv"
+            android:background="@color/home_top_color"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="13.3dip">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+                android:id="@+id/idCard_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dip"
+                android:layout_marginRight="13.3dip"
+                android:layout_marginTop="10dip"
+                customet:custom_tv="@string/sfzh"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dip"
+                android:layout_marginRight="13.3dip">
+
+                <android.support.v4.widget.Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:id="@+id/find_idcard_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:text="@string/check_id_card"
+                    android:textColor="@color/new_notice_color"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+
+            <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+                android:id="@+id/name_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dip"
+                android:layout_marginRight="13.3dip"
+                customet:custom_tv="@string/xmm"/>
+
+            <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+                android:id="@+id/before_name_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dip"
+                android:layout_marginRight="13.3dip"
+                customet:custom_tv="@string/cym"/>
+
+            <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+                android:id="@+id/other_name_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dip"
+                android:layout_marginRight="13.3dip"
+                customet:custom_tv="@string/bmch"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dip"
+                android:layout_marginRight="13.3dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:text="@string/xbm"
+                    android:textColor="@color/new_notice_color"
+                    android:textSize="17sp"/>
+
+                <RadioGroup
+                    android:id="@+id/sex_radiogroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13.3dip"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/nan"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:background="@drawable/radio_btn_select"
+                        android:button="@null"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dip"
+                        android:text="@string/nan"
+                        android:textColor="@color/new_notice_color"
+                        android:textSize="17sp"/>
+
+                    <RadioButton
+                        android:id="@+id/nv"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_marginLeft="13.3dip"
+                        android:background="@drawable/radio_btn_select"
+                        android:button="@null"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dip"
+                        android:text="@string/nv"
+                        android:textColor="@color/new_notice_color"
+                        android:textSize="17sp"/>
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+                android:id="@+id/birthday_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dip"
+                android:layout_marginRight="13.3dip"
+                android:layout_marginTop="13.3dip"
+                customet:custom_enable="false"
+                customet:custom_show="true"
+                customet:custom_tv="@string/csrq"/>
+
+            <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+                android:id="@+id/sssq_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dip"
+                android:layout_marginRight="13.3dip"
+                customet:custom_enable="false"
+                customet:custom_show="true"
+                customet:custom_tv="@string/sscq"/>
+
+            <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+                android:id="@+id/mz_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dip"
+                android:layout_marginRight="13.3dip"
+                customet:custom_enable="false"
+                customet:custom_show="true"
+                customet:custom_tv="@string/mz"/>
+
+            <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+                android:id="@+id/sg_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dip"
+                android:layout_marginRight="13.3dip"
+                customet:custom_tv="@string/sg"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dip"
+                android:layout_marginRight="13.3dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:text="@string/futz"
+                    android:textColor="@color/new_notice_color"
+                    android:textSize="17sp"/>
+
+                <RadioGroup
+                    android:id="@+id/jz_radiogroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13.3dip"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/shi"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:background="@drawable/radio_btn_select"
+                        android:button="@null"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dip"
+                        android:text="@string/shi"
+                        android:textColor="@color/new_notice_color"
+                        android:textSize="17sp"/>
+
+                    <RadioButton
+                        android:id="@+id/fou"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_marginLeft="13.3dip"
+                        android:background="@drawable/radio_btn_select"
+                        android:button="@null"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dip"
+                        android:text="@string/fou"
+                        android:textColor="@color/new_notice_color"
+                        android:textSize="17sp"/>
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+                android:id="@+id/hy_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dip"
+                android:layout_marginRight="13.3dip"
+                android:layout_marginTop="13.3dip"
+                customet:custom_enable="false"
+                customet:custom_show="true"
+                customet:custom_tv="@string/hyzk"/>
+
+            <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+                android:id="@+id/stzk_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dip"
+                android:layout_marginRight="13.3dip"
+                customet:custom_enable="false"
+                customet:custom_show="true"
+                customet:custom_tv="@string/stzk"/>
+
+            <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+                android:id="@+id/stxx_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dip"
+                android:layout_marginRight="13.3dip"
+                customet:custom_tv="@string/stxxzk"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dip"
+                android:text="@string/jtqk"
+                android:textColor="@color/new_notice_color"
+                android:textSize="17sp"/>
+
+            <cn.com.jinke.wh_drugcontrol.customview.MultipeChooseView
+                android:id="@+id/multipe_choose_view"
+                android:layout_width="match_parent"
+                android:layout_height="120dip"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="8.8dip"/>
+
+            <LinearLayout
+                android:id="@+id/wlqk_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="（  "/>
+
+                <RadioGroup
+                    android:id="@+id/wlqk_rg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/jcwl"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:background="@drawable/radio_btn_select"
+                        android:button="@null"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dip"
+                        android:text="@string/jcwl"
+                        android:textColor="@color/new_notice_color"
+                        android:textSize="17sp"/>
+
+                    <RadioButton
+                        android:id="@+id/oewl"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_marginLeft="13.3dip"
+                        android:background="@drawable/radio_btn_select"
+                        android:button="@null"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dip"
+                        android:text="@string/oewl"
+                        android:textColor="@color/new_notice_color"
+                        android:textSize="17sp"/>
+
+                    <RadioButton
+                        android:id="@+id/bwl"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_marginLeft="13.3dip"
+                        android:background="@drawable/radio_btn_select"
+                        android:button="@null"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dip"
+                        android:text="@string/bwl"
+                        android:textColor="@color/new_notice_color"
+                        android:textSize="17sp"/>
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  ）"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/next_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dip"
+                android:layout_marginRight="13.3dip"
+                android:layout_marginTop="13.3dip"
+                android:background="@drawable/login_button"
+                android:text="@string/xyb"
+                android:textColor="#ffffff"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

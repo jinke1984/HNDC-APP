@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="50dip"
+    android:background="@drawable/my_item_bg"
+    android:paddingBottom="5dip"
+    android:paddingTop="5dip">
+
+    <TextView
+        android:id="@+id/signin_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13.3dip"
+        android:layout_marginTop="5dip"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/signin_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13.3dip"
+        android:layout_marginTop="5dip"
+        android:textColor="@color/item_text_color"
+        android:textSize="14sp"/>
+
+</LinearLayout>

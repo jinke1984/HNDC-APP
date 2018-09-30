@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/_dot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/notice_title"
+        android:layout_alignTop="@+id/notice_title"
+        android:src="@drawable/circle_dot"/>
+
+    <Button
+        android:id="@+id/notice_title_check_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@color/btn_notice_check_detail_selector"
+        android:text="查看详情"
+        android:textColor="@color/hui"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/notice_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7.5dp"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@id/notice_title_check_detail"
+        android:layout_toRightOf="@id/_dot"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="top|left"
+        android:maxLines="1"
+        android:text="@string/tzgg"
+        android:textColor="@color/mask_jf_text_color"
+        android:textSize="14sp"/>
+
+    <ImageView
+        android:id="@+id/notice_title_document"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/notice_title_check_detail"
+        android:layout_below="@id/notice_title_check_detail"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/nj_fj"/>
+
+    <TextView
+        android:id="@+id/notice_title_keywords"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/notice_title_document"
+        android:layout_alignLeft="@id/notice_title"
+        android:layout_alignTop="@id/notice_title_document"
+        android:layout_gravity="center|left"
+        android:layout_toLeftOf="@id/notice_title_document"
+        android:layout_weight="1"
+        android:gravity="center|left"
+        android:text="关键字"
+        android:textColor="@color/hui"
+        android:textSize="11sp"/>
+
+</RelativeLayout>

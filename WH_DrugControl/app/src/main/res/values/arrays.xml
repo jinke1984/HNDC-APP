@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="public_security_result">
+        <item value="1">不予处罚</item>
+        <item value="2">警告</item>
+        <item value="3">罚款</item>
+        <item value="4">警告+罚款</item>
+        <item value="5">行政拘留</item>
+        <item value="6">行政拘留+罚款</item>
+        <item value="7">行政拘留+社区戒毒</item>
+        <item value="8">行政拘留+强制隔离戒毒</item>
+        <item value="9">其他强制性教育措施</item>
+        <item value="10">拘留</item>
+        <item value="11">逮捕</item>
+        <item value="12">其他刑事强制措施</item>
+    </array>
+
+    <string-array name="base_info">
+        <item>采集对象基本情况</item>
+        <item>采集对象一般情况</item>
+        <item>采集对象吸毒情况</item>
+    </string-array>
+</resources>

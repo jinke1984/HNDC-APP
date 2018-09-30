@@ -1,0 +1,160 @@
+package cn.com.jinke.wh_drugcontrol.utils;
+
+/**
+ * 消息常量
+ * Created by jinke on 16/8/1.
+ */
+public interface MsgKey {
+
+    int BASE = 100000;
+
+    //-------------------公共模块---------------------
+    int COMMON_BASE = BASE + 1000;
+    int FINISH_ALL_ACTIVITY = COMMON_BASE + 1;
+    int JUMP_TO_HOME = COMMON_BASE + 2;
+    int HOME_MSG = COMMON_BASE + 3;
+    int ACCESS_NET_FAILED = COMMON_BASE + 4;
+    int GET_PIC_FILE = COMMON_BASE + 5;
+
+    //----------------- 登录消息 ---------------------
+    int LOGIN_BASE = BASE + 2000;
+    int LOGIN_MSG = LOGIN_BASE + 1;
+    int AREA_LIST = LOGIN_BASE + 2;
+
+    //----------------- 启动页 ----------------------
+    int BOOT_BASE = BASE + 3000;
+    int BOOT_MSG = BOOT_BASE + 1;
+
+    //----------------- me相关 -----------------------
+    int ME_BASE = BASE + 4000;
+    int SEARCH_MSG = ME_BASE + 1;
+    int AREA_MSG = ME_BASE + 2;
+    int COLLECTION_MSG = ME_BASE + 3;
+    int COLLECTION_MSG_OK_SUC = ME_BASE + 4;
+    int COLLECTION_MSG_FAIL = ME_BASE + 5;
+    int COLLECTION_MSG_CANCEL_SUC = ME_BASE + 6;
+    int LOGOUT_SUC = ME_BASE + 7;
+    int SIGN_IN_SUC = ME_BASE + 8;
+    int SIGN_LIST_SUC = ME_BASE + 9;
+
+    //----------------- input相关 --------------------
+    int INPUT_BASE = BASE + 5000;
+    int URINE_MSG = INPUT_BASE + 1;
+    int TALK_MSG = INPUT_BASE + 2;
+    int REPORT_MSG = INPUT_BASE + 3;
+    int HOUSE_PHOTO_MSG = INPUT_BASE + 4;
+    int DOC_ID_MSG = INPUT_BASE + 5;
+    int SAVE_HOUSE_PHOTO = INPUT_BASE + 6;
+    int ADD_URINE_MSG = INPUT_BASE + 7;    // 新增尿检
+    int ADD_CONVERSATION_MSG = INPUT_BASE + 8;    // 新增访谈
+    int ADD_REPORT_MSG = INPUT_BASE + 9;
+    int ADD_DECISION_DOC = INPUT_BASE + 9;    // 新增决定书
+    int ADD_NOTIFY_DOC = INPUT_BASE + 10;    // 新增告知书
+    int ADD_AGREEMENT_DOC = INPUT_BASE + 11;    // 新增协议书
+    int ADD_RULE_DOC = INPUT_BASE + 12;    // 新增协议书
+    int ADD_PLAN_DOC = INPUT_BASE + 13;    // 新增计划书
+    int ADD_EXHORT_DOC = INPUT_BASE + 14;    // 新增劝诫书
+    int ADD_VIOLATE_AGREE_DOC = INPUT_BASE + 15;    // 新增违反记录
+    int ADD_SUSPENDED_DOC = INPUT_BASE + 16;    // 新增中止记录
+    int ADD_GO_ON_DOC = INPUT_BASE + 17;    // 新增继续执行
+    int ADD_LEAVE_DOC = INPUT_BASE + 18;    // 新增请假
+    int WORK_REMIND_MSG = INPUT_BASE + 19;
+    int ADD_PERSON_PART1 = INPUT_BASE + 20;
+    int ADD_PERSON_PART2 = INPUT_BASE + 21;
+    int ADD_PERSON_PART3 = INPUT_BASE + 22;
+    int ADD_PERSON_PART4 = INPUT_BASE + 23;
+    int ADD_PERSON_PART5 = INPUT_BASE + 24;
+    int UPDATE_PERSON_CACHE = INPUT_BASE + 25;
+    int UPDATE_DJ_PHOTO = INPUT_BASE + 26;
+    int GET_DOCUMENT_STATUS = INPUT_BASE + 27;
+    int JUDGE_CREATETIME = INPUT_BASE + 28;
+    int REQ_DELETE_DOC = INPUT_BASE + 29;
+    int CHANGE_APPLY_SUCCESS = INPUT_BASE + 30;
+    int DELETE_APPLY_SUCCESS = INPUT_BASE + 31;
+    int UPDATE_DELETE_SUCCESS = INPUT_BASE + 32;
+    int GET_MODIFY_DELETE_SUCCESS = INPUT_BASE + 33;
+    int TASK_AUDIT_SUCCESS = INPUT_BASE + 34;
+    int UPDATE_OR_DETELE_SUCCESS = INPUT_BASE + 35;
+    int QRCODEMSG = INPUT_BASE + 36;
+    int LEAVE_MSG = INPUT_BASE + 37;
+    int CHANGE_MSG = INPUT_BASE + 38;
+
+    int LOAD_WORD_LIST = INPUT_BASE + 500;
+    int LOAD_VIOLATION_AGREEMENT_LIST = INPUT_BASE + 501;
+    int LOAD_AUDIT_PERSON_LIST = INPUT_BASE + 502;
+    int LOAD_DRUGS_BREAK_LIST = INPUT_BASE + 503;
+    int LOAD_AGREEMENT = INPUT_BASE + 504;
+    int LOAD_LEAVE = INPUT_BASE + 505;
+    int LOAD_DECISION = INPUT_BASE + 506;
+    int LOAD_EXHORT = INPUT_BASE + 507;
+    int LOAD_CONTINUE = INPUT_BASE + 508;
+    int LOAD_NOTIFY = INPUT_BASE + 509;
+    int LOAD_RULE = INPUT_BASE + 510;
+    int LOAD_HELP_PLAN = INPUT_BASE + 511;
+    int LOAD_DRUGS_CONTINUE_LIST = INPUT_BASE + 512;
+    int LOAD_NOTICE = INPUT_BASE + 513;
+    int LOAD_PERSONBYIDCARD = INPUT_BASE + 514;
+    int LOAD_NEXT_PEOPLE = INPUT_BASE + 515;
+
+    //-------------- 上传图片 --------------
+    int UPLOAD_BASE = BASE + 6000;
+    int UPLOAD_PHOTO_SUCCESS = UPLOAD_BASE + 1;
+    int UPLOAD_PHOTO_FAIL = UPLOAD_BASE + 2;
+    int MAP_SAVE_SUCCESS = UPLOAD_BASE + 3;
+
+    //-------------- 首页 -------------------
+    int HOME_BASE = BASE + 7000;
+    int HOME_SUCCESS = HOME_BASE + 1;
+    int HOME_INDEX = HOME_BASE + 2;
+    int TASK_COUNT_SUCCESS = HOME_BASE + 3;
+    final int TASK_SUCCESS = HOME_BASE + 4;
+    int TAST_DETAIL_SUCCESS = HOME_BASE + 5;
+
+    //--------------- 消息模块 --------------
+    int MESSAGE_BASE = BASE + 8000;
+    int MESSAGE_RECEIVE = MESSAGE_BASE + 1;
+    int MESSAGE_INDEX = MESSAGE_BASE + 2;
+
+    //获取信息推送历史类型(最近的信息)
+    int MESSAGE_HISTORY_MANAGER = MESSAGE_BASE + 3;
+
+    //根据类型获取历史推送信息
+    int MESSAGE_HISTORY_MANAGER_DETAIL = MESSAGE_BASE + 4;
+
+    int PLAY = 36;
+    int MESSAGE_COUNT = 33;
+    int CHAT_MESSAGE_JL = 26;
+    int CHAT_MESSAGE_JL_ME = 27;
+    int CHAT_FRESH = 31;
+    int CHAT_ROOM_NUMBER = 32;
+
+    int MESSAGESUCCESS = 19;
+    int RECEIVER_RGEID = 30;
+
+
+    //--------------- 积分模块 --------------
+    int SOURCE_BASE = BASE + 9000;
+    int SOURCE_SUC = SOURCE_BASE + 1;
+
+    // ----------综合查询模块 -------------
+    int MSG_PERSION_INTERGRATED_QUERY = BASE + 10000;
+    int MSG_PERSION_RECOVERY_INFO = MSG_PERSION_INTERGRATED_QUERY + 1;
+    int MSG_PERSION_SUNSHINE = MSG_PERSION_INTERGRATED_QUERY + 3;
+    int MSG_PERSION_ACCEPT_DRUGS_CURE = MSG_PERSION_INTERGRATED_QUERY + 4;
+    int MSG_PERSION_SPECIAL_WARD = MSG_PERSION_INTERGRATED_QUERY + 5;
+    int MSG_PERSION_DETOXIFICATION_SUPERVISION = MSG_PERSION_INTERGRATED_QUERY + 6;
+
+    int MSG_PERSION_EMPLOYMENT_INTENTION = MSG_PERSION_INTERGRATED_QUERY + 10;
+    int MSG_PERSION_AID_AND_RESCUE = MSG_PERSION_INTERGRATED_QUERY + 11;
+    int MSG_PERSION_PHYSICAL_EXAMINATION = MSG_PERSION_INTERGRATED_QUERY + 12;
+    int MSG_PERSION_HEART_COUNSELING = MSG_PERSION_INTERGRATED_QUERY + 13;
+    int MSG_PERSION_MEDICATION_SITUATION = MSG_PERSION_INTERGRATED_QUERY + 14;
+
+    int MSG_PERSION_EMPLOYMENT_PLACEMENT = MSG_PERSION_INTERGRATED_QUERY + 15;
+    int MSG_PERSION_EMPLOYMENT_RECOMMENT = MSG_PERSION_INTERGRATED_QUERY + 16;
+
+
+    int MSG_TASK_BACK = MSG_PERSION_INTERGRATED_QUERY + 30;
+    int MSG_SCAN_PERSION_INFO = MSG_PERSION_INTERGRATED_QUERY + 50;
+    int MSG_SCAN_GET_QRCODE = MSG_PERSION_INTERGRATED_QUERY + 51;
+}

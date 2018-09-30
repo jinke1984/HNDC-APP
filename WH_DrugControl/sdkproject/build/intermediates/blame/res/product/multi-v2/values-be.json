@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/values-be/values-be.xml",
+            "map": [
+                {
+                    "source": "/Users/jinke/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/07187f7430ed83f9f980a90dbf5e4902/res/values-be/values-be.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "108",
+                        "endOffsets": "159"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/incremental/mergeProductResources/merged.dir/values-be/values-be.xml",
+            "map": [
+                {
+                    "source": "/Users/jinke/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/07187f7430ed83f9f980a90dbf5e4902/res/values-be/values-be.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "108",
+                        "endOffsets": "159"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/qiandw_system_header_include" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <cn.com.jinke.wh_drugcontrol.customview.NewGridView
+                android:id="@+id/area_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:horizontalSpacing="26.6dp"
+                android:verticalSpacing="20dp"
+                android:listSelector="@color/transparent"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:paddingRight="13.3dp"
+                android:paddingLeft="13.3dp"
+                android:layout_marginBottom="20dp"
+                android:numColumns="2"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

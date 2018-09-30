@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/my_item_bg"
+    android:gravity="center_vertical"
+    android:minHeight="100dip"
+    android:orientation="horizontal"
+    android:padding="13.3dip">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/column_name_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/home_point"
+            android:drawablePadding="6.6dip"
+            android:ellipsize="end"
+            android:minLines="1"
+            android:textColor="@color/login_title_color"
+            android:textSize="20sp"
+            tools:text="父条目标题"/>
+
+        <Button
+            android:id="@+id/check_detail_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:focusable="false"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:padding="0dp"
+            android:text="@string/check_detail"
+            android:textColor="@color/btn_notice_check_detail_selector"
+            android:textSize="16sp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/key_name_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13.3dip"
+            android:layout_marginTop="16dip"
+            android:ellipsize="end"
+            android:minLines="1"
+            android:textColor="@color/hui"
+            android:textSize="16sp"
+            tools:text="父条目关键字"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/wjj_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wjj"/>
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/food_bg"
+    android:orientation="horizontal">
+    
+    <ImageView 
+        android:id="@+id/head_zg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/xtxx"
+        android:layout_marginLeft="6.6dp"
+        android:contentDescription="@string/app_name"/>
+    
+    <LinearLayout
+        android:id="@+id/head_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/qqq"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="6.6dp"
+        android:orientation="horizontal" >
+    
+       <ImageView 
+            android:id="@+id/chat_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:scaleType="center"
+            android:visibility="gone"
+            android:contentDescription="@string/app_name"
+            android:layout_margin="6.6dp"
+            android:background="@drawable/message_voice_other"/>
+       <ImageView 
+            android:id="@+id/chat_img_ic"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/app_name"
+            android:visibility="gone"
+            android:layout_marginTop ="7dp"
+            android:layout_marginBottom="7dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/message_default_img"/>
+       
+       <TextView 
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:gravity="center"/>
+       
+       <TextView 
+        android:id="@+id/me_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginLeft="6.6dp"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center|left"
+        android:textSize="16sp"
+        android:lineSpacingExtra="3dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:gravity="center"/>
+       
+    </LinearLayout> 
+    
+</LinearLayout>

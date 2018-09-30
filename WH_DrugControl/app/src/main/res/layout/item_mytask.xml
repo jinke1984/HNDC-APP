@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/my_item_bg"
+    android:paddingTop="15dip"
+    android:paddingBottom="15dip"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/mytask_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="13.3dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+    
+    <TextView 
+        android:id="@+id/mytask_numb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/shopping_num_bg"
+        android:layout_marginRight="30dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_toLeftOf="@+id/mytask_img"/>
+    
+    <ImageView 
+        android:id="@+id/mytask_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mark"
+        android:contentDescription="@string/app_name"
+        android:layout_margin="13.3dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

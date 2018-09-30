@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/food_bg"
+    android:orientation="vertical" >
+    
+    <include 
+        android:id="@+id/top"
+        layout="@layout/qiandw_system_header_include"/>
+    
+    <ExpandableListView 
+        android:id="@+id/query_elv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:groupIndicator="@null"
+        android:listSelector="@color/transparent"
+        android:divider="@color/transparent"
+        android:dividerHeight="2dp"
+        android:childDivider="@color/transparent"
+        android:layout_above="@+id/all_qeury"
+        android:layout_below="@+id/top"/>
+    
+    <TextView 
+        android:id="@+id/all_qeury"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/cxqb"
+        android:text="@string/cxqbzhxx"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:layout_marginTop="6.6dp"
+        android:layout_marginBottom="6.6dp"/>
+    
+
+</RelativeLayout>

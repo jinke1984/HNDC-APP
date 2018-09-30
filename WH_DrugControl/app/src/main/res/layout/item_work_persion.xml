@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="64dip"
+    android:background="@drawable/my_item_bg"
+    android:paddingBottom="5dip"
+    android:paddingTop="5dip">
+
+    <ImageView
+        android:id="@+id/work_persion_img"
+        android:layout_width="70dip"
+        android:layout_height="85dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:background="@drawable/default_image"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="79dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="6.5dip"
+        android:layout_marginRight="6.5dip"
+        android:layout_toRightOf="@+id/work_persion_img"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/work_persion_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/work_persion_sex_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/item_text_color"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/work_id_card_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/item_text_color"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

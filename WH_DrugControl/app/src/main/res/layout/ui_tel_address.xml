@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customet="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/base_info_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip">
+
+        <TextView
+            android:id="@+id/base_info_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/blue_point"
+            android:drawablePadding="6dip"
+            android:drawableRight="@drawable/blue_point"
+            android:text="@string/lxfsjdz"
+            android:textColor="@color/home_top_color"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1.3dip"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5.3dip"
+            android:layout_toLeftOf="@+id/base_info_tv"
+            android:background="@color/home_top_color"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1.3dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5.3dip"
+            android:layout_toRightOf="@+id/base_info_tv"
+            android:background="@color/home_top_color"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="13.3dip">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+                android:id="@+id/hjszd_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dip"
+                android:layout_marginRight="13.3dip"
+                android:layout_marginTop="10dip"
+                customet:custom_enable="false"
+                customet:custom_show="true"
+                customet:custom_tv="@string/hjszd"/>
+
+            <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+                android:id="@+id/hjszdxz_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dip"
+                android:layout_marginRight="13.3dip"
+                customet:custom_tv="@string/hjszdxxdz"/>
+
+            <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+                android:id="@+id/xjzd_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dip"
+                android:layout_marginRight="13.3dip"
+                customet:custom_enable="false"
+                customet:custom_show="true"
+                customet:custom_tv="@string/xjzd"/>
+
+            <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+                android:id="@+id/xjzdxz_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dip"
+                android:layout_marginRight="13.3dip"
+                customet:custom_tv="@string/xjzdxxdz"/>
+
+            <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+                android:id="@+id/yddh_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dip"
+                android:layout_marginRight="13.3dip"
+                customet:custom_tv="@string/yddh"/>
+
+            <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+                android:id="@+id/gddh_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dip"
+                android:layout_marginRight="13.3dip"
+                customet:custom_tv="@string/gddh"/>
+
+            <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+                android:id="@+id/qqhm_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dip"
+                android:layout_marginRight="13.3dip"
+                customet:custom_tv="@string/qqhm"/>
+
+            <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+                android:id="@+id/wxh_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dip"
+                android:layout_marginRight="13.3dip"
+                customet:custom_tv="@string/wxh"/>
+
+            <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+                android:id="@+id/yx_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dip"
+                android:layout_marginRight="13.3dip"
+                customet:custom_tv="@string/hlwyx"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="13.3dip">
+
+                <Button
+                    android:id="@+id/pre_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/login_button"
+                    android:text="@string/syb"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"/>
+
+                <android.support.v4.widget.Space
+                    android:layout_width="13.3dip"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:id="@+id/next_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/login_button"
+                    android:text="@string/xyb"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+            
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

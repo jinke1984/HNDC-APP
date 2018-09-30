@@ -1,0 +1,12 @@
+[
+  { "id": "1", "text": "决定书", "sc": "jds"},
+  { "id": "2", "text": "告知书", "sc": "gzs"},
+  { "id": "3", "text": "协议书", "sc": "xys"},
+  { "id": "4", "text": "人员守则", "sc": "rysz"},
+  { "id": "5", "text": "计划书", "sc": "jhs"},
+  { "id": "6", "text": "劝诫书", "sc": "qjs"},
+  { "id": "6", "text": "告诫书", "sc": "gjs"},
+  { "id": "6", "text": "违反协议记录", "sc": "wfxy"},
+  { "id": "7", "text": "中止记录", "sc": "wfxyqk"},
+  { "id": "7", "text": "继续执行", "sc": "wfxyqk"}
+]

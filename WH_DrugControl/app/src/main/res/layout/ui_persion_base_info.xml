@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        layout="@layout/qiandw_system_header_include"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/name_layout"
+                android:layout_width="match_parent"
+                android:layout_height="53.3dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/my_item_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="13.3dp"
+                    android:text="@string/xmwm"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/drug_details_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="13.3dp"
+                    android:textColor="@color/base_info_color" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:background="@color/item_bg" />
+
+            <RelativeLayout
+                android:id="@+id/sex_layout"
+                android:layout_width="match_parent"
+                android:layout_height="53.3dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/my_item_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="13.3dp"
+                    android:text="@string/xinb"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/drug_details_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="13.3dp"
+                    android:textColor="@color/base_info_color" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:background="@color/item_bg" />
+
+            <RelativeLayout
+                android:id="@+id/birthday_layout"
+                android:layout_width="match_parent"
+                android:layout_height="53.3dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/my_item_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="13.3dp"
+                    android:text="@string/csny"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/drug_details_birth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="13.3dp"
+                    android:textColor="@color/base_info_color" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:background="@color/item_bg" />
+
+            <RelativeLayout
+                android:id="@+id/name_other_layout"
+                android:layout_width="match_parent"
+                android:layout_height="53.3dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/my_item_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="13.3dp"
+                    android:text="@string/cymbm"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/drug_details_name_other"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="13.3dp"
+                    android:textColor="@color/base_info_color" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:background="@color/item_bg" />
+
+            <RelativeLayout
+                android:id="@+id/educational_level_layout"
+                android:layout_width="match_parent"
+                android:layout_height="53.3dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/my_item_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="13.3dp"
+                    android:text="@string/whcdwm"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/drug_details_educational_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="13.3dp"
+                    android:textColor="@color/base_info_color" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:background="@color/item_bg" />
+
+            <RelativeLayout
+                android:id="@+id/lxfs_layout"
+                android:layout_width="match_parent"
+                android:layout_height="53.3dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/my_item_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="13.3dp"
+                    android:text="@string/lxfs"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/drug_details_lxfs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="13.3dp"
+                    android:textColor="@color/base_info_color" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:background="@color/item_bg" />
+
+            <RelativeLayout
+                android:id="@+id/address_layout"
+                android:layout_width="match_parent"
+                android:layout_height="53.3dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/my_item_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="13.3dp"
+                    android:text="@string/hjssqywm"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/drug_details_address"
+                    android:layout_width="170dip"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="13.3dp"
+                    android:gravity="right"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="@color/base_info_color" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:background="@color/item_bg" />
+
+            <RelativeLayout
+                android:id="@+id/hjxxdz_layout"
+                android:layout_width="match_parent"
+                android:layout_height="53.3dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/my_item_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="13.3dp"
+                    android:text="@string/hjxxdz"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/drug_details_hjxxdz"
+                    android:layout_width="170dip"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="right"
+                    android:layout_marginRight="13.3dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="@color/base_info_color" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:background="@color/item_bg" />
+
+            <RelativeLayout
+                android:id="@+id/xjzdxz_layout"
+                android:layout_width="match_parent"
+                android:layout_height="53.3dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/my_item_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="13.3dp"
+                    android:text="@string/xjzdxz"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/drug_details_xjzdxz"
+                    android:layout_width="170dip"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="right"
+                    android:layout_marginRight="13.3dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="@color/base_info_color" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:background="@color/item_bg" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

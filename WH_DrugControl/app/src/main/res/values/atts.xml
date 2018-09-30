@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="custom_edittext">
+        <attr name="custom_hint" format="string"/>
+        <attr name="custom_tv" format="string"/>
+        <attr name="custom_enable" format="boolean"/>
+        <attr name="custom_show" format="boolean"/>
+        <attr name="custom_number" format="boolean"/>
+        <attr name="custom_iv" format="reference"/>
+        <attr name="custom_minLen" format="integer"/>
+        <attr name="custom_maxLen" format="integer"/>
+    </declare-styleable>
+</resources>

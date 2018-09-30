@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="30dip"
+    android:paddingTop="15dip"
+    android:paddingBottom="15dip"
+    android:background="@drawable/my_item_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13.3dip"
+        android:layout_marginRight="13.3dip">
+
+        <TextView
+            android:id="@+id/leave_applyDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/item_input_color"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/leave_approveDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/item_input_color"
+            android:textSize="14sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13.3dip"
+        android:layout_marginRight="13.3dip"
+        android:layout_marginTop="6.6dip">
+
+        <TextView
+            android:id="@+id/leave_beginDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/item_input_color"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/leave_endDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/item_input_color"
+            android:textSize="14sp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/leave_destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6.6dip"
+        android:layout_marginLeft="13.3dip"
+        android:textColor="@color/item_input_color"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/leave_leaveReason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6.6dip"
+        android:layout_marginLeft="13.3dip"
+        android:textColor="@color/item_input_color"
+        android:textSize="14sp"/>
+
+
+</LinearLayout>

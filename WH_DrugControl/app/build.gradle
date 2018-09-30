@@ -1,0 +1,201 @@
+apply plugin: 'com.android.application'
+
+project.ext.react = [
+        nodeExecutableAndArgs : ["/usr/local/bin/node"]
+];
+
+android {
+    compileSdkVersion 27
+    useLibrary 'org.apache.http.legacy'
+
+    sourceSets {
+        main {
+            manifest.srcFile 'src/main/AndroidManifest.xml'
+            java.srcDirs = ['src/main/java']
+            resources.srcDirs = ['src/main/java']
+            aidl.srcDirs = ['src/main/aidl']
+            renderscript.srcDirs = ['src/main/java']
+            res.srcDirs = ['src/main/res']
+            assets.srcDirs = ['src/main/assets']
+            jniLibs.srcDirs = ['src/main/jniLibs']
+        }
+    }
+
+    defaultConfig {
+        applicationId "cn.com.hy.hn_drugcontrol"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 10
+        versionName "1.0"
+        flavorDimensions "versionCode"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [moduleName: project.getName()]
+            }
+        }
+        multiDexEnabled true
+
+        ndk {
+            abiFilters 'armeabi','armeabi-v7a', 'x86'
+        }
+
+        packagingOptions {
+            // The project react-native does not provide 64-bit binaries at the
+            // time of this writing. Unfortunately, packaging any 64-bit
+            // binaries into the .apk will crash the app at runtime on 64-bit
+            // platforms.
+            exclude '/lib/mips64/**'
+            exclude '/lib/arm64-v8a/**'
+            exclude '/lib/x86_64/**'
+        }
+
+        manifestPlaceholders = [rong_package: "org.weixvn.frame"]
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+        ignoreWarnings true
+        disable 'MissingTranslation'
+    }
+
+    //签名文件配置
+    signingConfigs {
+        debug {
+            storeFile file("jinke.keystore")
+            storePassword "8230097"
+            keyAlias "android"
+            keyPassword "8230097"
+        }
+        release {
+            storeFile file("android.keystore")
+            storePassword '8230097'
+            keyAlias 'android'
+            keyPassword '8230097'
+        }
+    }
+
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+            // applicationIdSuffix ".debug"
+            debuggable true
+            jniDebuggable true
+            minifyEnabled false
+            zipAlignEnabled true
+        }
+        release {
+            signingConfig signingConfigs.release
+            debuggable false
+            jniDebuggable false
+            minifyEnabled false //是否混淆
+            //shrinkResources true // 移除无用的resource文件
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            zipAlignEnabled true
+        }
+        product{
+            signingConfig signingConfigs.release
+            debuggable false
+            jniDebuggable false
+            minifyEnabled false //是否混淆
+            //shrinkResources true // 移除无用的resource文件
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            zipAlignEnabled true
+        }
+    }
+
+    productFlavors {
+        rel {
+            buildConfigField "String", "BUILD_NAME", "\"release\""
+            buildConfigField "String", "CLOUDWALK_KEY", "\"MjkwNDE0bm9kZXZpY2Vjd2F1dGhvcml6Zffl4ufn5+Li/+fg5efm4+f74ufn4Obg5Yjm5uvl5ubrkeXm5uvl5uai6+Xm5uvl5uTm6+Xm5uDm1efr5+vn6+er4Ofr5+vn66/n5+Lm5+fn\""
+            manifestPlaceholders = [COMPILE_DATE: getCompileTime(),
+                                    CHANNEL_NAME: "release",
+                                    ENVIRONMENT: "rel",
+                                    app_icon : "@drawable/logo",
+                                    app_label:"@string/app_name"]
+        }
+        deb {
+            buildConfigField "String", "BUILD_NAME", "\"debug\""
+            buildConfigField "String", "CLOUDWALK_KEY", "\"MjkwNDE0bm9kZXZpY2Vjd2F1dGhvcml6Zffl4ufn5+Li/+fg5efm4+f74ufn4Obg5Yjm5uvl5ubrkeXm5uvl5uai6+Xm5uvl5uTm6+Xm5uDm1efr5+vn6+er4Ofr5+vn66/n5+Lm5+fn\""
+            manifestPlaceholders = [COMPILE_DATE: getCompileTime(),
+                                    CHANNEL_NAME: "debug",
+                                    ENVIRONMENT: "deb",
+                                    app_icon : "@drawable/logo",
+                                    app_label:"@string/app_name"]
+        }
+        prod {
+            buildConfigField "String", "BUILD_NAME", "\"product\""
+            buildConfigField "String", "CLOUDWALK_KEY", "\"MjkwNDE0bm9kZXZpY2Vjd2F1dGhvcml6Zffl4ufn5+Li/+fg5efm4+f74ufn4Obg5Yjm5uvl5ubrkeXm5uvl5uai6+Xm5uvl5uTm6+Xm5uDm1efr5+vn6+er4Ofr5+vn66/n5+Lm5+fn\""
+            manifestPlaceholders = [COMPILE_DATE: getCompileTime(),
+                                    CHANNEL_NAME: "product",
+                                    ENVIRONMENT:"prod",
+                                    app_icon : "@drawable/h_logo",
+                                    app_label: "海南禁毒"]
+        }
+    }
+
+//    android.applicationVariants.all { variant ->
+//        variant.outputs.each { output ->
+//            def outputFile = output.outputFile
+//            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+//                // 输出apk名称为XXXX_v1.0.0_2016-01-15_wandoujia.apk
+//                def fileName = "DrugControl_v${defaultConfig.versionName}_${getCompileDate()}_${variant.productFlavors[0].name}.apk"
+//                output.outputFile = new File(outputFile.parent, fileName)
+//            }
+//        }
+//    }
+
+    android.applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "DrugControl_v${defaultConfig.versionName}_${getCompileDate()}_${variant.productFlavors[0].name}.apk"
+        }
+    }
+
+    configurations.all {
+        resolutionStrategy.force 'com.google.code.findbugs:jsr305:1.3.9'
+    }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.google.zxing:core:3.2.0'
+    compile 'com.android.support:support-v4:27.1.1'
+    compile 'com.android.support:appcompat-v7:27.1.1'
+    compile 'org.xutils:xutils:3.5.0'
+    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.bm.photoview:library:1.4.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    annotationProcessor 'com.alibaba:arouter-compiler:1.1.4'
+    compile 'com.alibaba:arouter-api:1.3.1'
+    compile 'com.blankj:utilcode:1.3.4'
+    testCompile 'junit:junit:4.12'
+    compile project(':library-refresh')
+    compile project(':sdkproject')
+    compile files('libs/BaiduLBS_Android.jar')
+    compile files('libs/jcore-android-1.2.3.jar')
+    compile files('libs/jpush-android-3.1.5.jar')
+    compile('com.github.gzu-liyujiang.AndroidPicker:WheelPicker:1.5.1') {
+        exclude group: 'com.android.support'
+    }
+    compile project(':sdk')
+    compile'com.android.support:multidex:1.0.1'
+    compile 'com.idescout.sql:sqlscout-server:4.1'
+}
+
+def getCompileDate() {
+    return new Date().format("yyyy-MM-dd", TimeZone.getTimeZone("UTC"))
+}
+
+def getCompileTime() {
+    return new Date().format("yyyy-MM-dd HH:mm:ss", TimeZone.getTimeZone("UTC"))
+}

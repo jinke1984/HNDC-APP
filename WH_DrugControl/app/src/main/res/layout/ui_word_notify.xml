@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customet="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <include layout="@layout/qiandw_system_header_include"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="13.3dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="13dip">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dip"
+                    android:text="@string/gzslx"
+                    android:textColor="@color/new_notice_color"
+                    android:textSize="14sp"/>
+
+                <RadioGroup
+                    android:id="@+id/gzs_type_radiogroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13.3dip"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/gzs_jd"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:background="@drawable/radio_btn_select"
+                        android:button="@null"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dip"
+                        android:text="@string/sqjd"
+                        android:textColor="@color/new_notice_color"
+                        android:textSize="14sp"/>
+
+                    <RadioButton
+                        android:id="@+id/gzs_kf"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_marginLeft="13.3dip"
+                        android:background="@drawable/radio_btn_select"
+                        android:button="@null"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dip"
+                        android:text="@string/sqkf"
+                        android:textColor="@color/new_notice_color"
+                        android:textSize="14sp"/>
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+                android:id="@+id/gzs_xd_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                customet:custom_enable="false"
+                customet:custom_iv="@drawable/time_button"
+                customet:custom_show="true"
+                customet:custom_tv="@string/xdrq"/>
+
+            <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+                android:id="@+id/gzs_xdjg_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dip"
+                customet:custom_tv="@string/xdgajg"/>
+
+            <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+                android:id="@+id/gzs_qs_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.5dip"
+                customet:custom_enable="false"
+                customet:custom_iv="@drawable/time_button"
+                customet:custom_show="true"
+                customet:custom_tv="@string/qsrq"/>
+
+            <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+                android:id="@+id/gzs_gz_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.5dip"
+                customet:custom_enable="false"
+                customet:custom_iv="@drawable/time_button"
+                customet:custom_show="true"
+                customet:custom_tv="@string/gzrq"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dip"
+                    android:text="@string/smscfj"
+                    android:textColor="@color/new_notice_color"
+                    android:textSize="14sp"/>
+
+                <LinearLayout
+                    android:id="@+id/scan_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/scan_btn"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/scan"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:text="@string/sm"
+                        android:textColor="@color/white"
+                        android:textSize="17sp"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/preview_iv"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="13.3dip"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <include
+        android:id="@+id/bottom_actions_container"
+        layout="@layout/ui_word_bottom_btn"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+</LinearLayout>

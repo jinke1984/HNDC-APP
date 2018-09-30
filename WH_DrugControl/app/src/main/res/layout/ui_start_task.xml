@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/start_task_top"
+        layout="@layout/qiandw_system_header_include"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/start_btn"
+        android:layout_below="@+id/start_task_top">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/task_reason_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13.3dip"
+                    android:layout_marginTop="20dip"
+                    android:text="@string/scyy"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/task_reason_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/task_reason_tv"
+                    android:layout_marginLeft="13.3dip"
+                    android:layout_marginRight="13.3dip"
+                    android:layout_marginTop="8dip"
+                    android:gravity="top"
+                    android:minHeight="160dip"
+                    android:textColor="@color/new_notice_color"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/task_remask_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/task_reason_et"
+                    android:layout_marginLeft="13.3dip"
+                    android:layout_marginTop="8dip"
+                    android:text="@string/bzm"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/task_remask_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/task_remask_tv"
+                    android:layout_marginLeft="13.3dip"
+                    android:layout_marginRight="13.3dip"
+                    android:layout_marginTop="8dip"
+                    android:gravity="top"
+                    android:minHeight="160dip"
+                    android:textColor="@color/new_notice_color"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/task_sp_persion_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/task_remask_et"
+                    android:layout_marginLeft="13.3dip"
+                    android:layout_marginTop="8dip"
+                    android:text="@string/sprm"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"/>
+
+                <Spinner
+                    android:id="@+id/persion_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/task_sp_persion_tv"
+                    android:layout_marginLeft="13.3dip"
+                    android:layout_marginRight="13.3dip"
+                    android:layout_marginTop="8dip"
+                    android:spinnerMode="dropdown"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/start_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/my_item_bg"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ok_commit"
+            android:drawablePadding="5dip"
+            android:text="@string/qdtj"
+            android:textColor="@color/home_top_color"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</RelativeLayout>

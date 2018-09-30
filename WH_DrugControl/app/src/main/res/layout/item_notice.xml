@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingBottom="16dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="4dp"
+    android:paddingTop="16dp">
+
+    <ImageView
+        android:id="@+id/notice_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="left|top"
+        tools:src="@drawable/default_msg"/>
+
+    <TextView
+        android:id="@+id/notice_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/notice_image"
+        android:layout_marginLeft="7.5dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/notice_image"
+        android:ellipsize="end"
+        android:gravity="top|left"
+        android:maxLines="2"
+        android:textColor="@color/mask_jf_text_color"
+        android:textSize="14sp"
+        tools:text="@string/tzgg"/>
+
+    <TextView
+        android:id="@+id/notice_publish_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/notice_image"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center|right"
+        android:layout_margin="8dp"
+        android:layout_marginRight="7.5dp"
+        android:drawableLeft="@drawable/time"
+        android:gravity="center|right"
+        android:text="@string/fbsj"
+        android:textColor="@color/hui"
+        android:textSize="11sp"/>
+
+    <TextView
+        android:id="@+id/notice_publish_name"
+        android:layout_width="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/notice_publish_time"
+        android:layout_gravity="center|left"
+        android:layout_toLeftOf="@id/notice_publish_time"
+        android:layout_toRightOf="@id/notice_image"
+        android:drawableLeft="@drawable/dress"
+        android:gravity="center|left"
+        android:text="@string/fbdw"
+        android:textColor="@color/hui"
+        android:textSize="11sp"/>
+
+</RelativeLayout>

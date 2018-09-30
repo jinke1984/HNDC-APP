@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/my_item_bg"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/suspended_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/suspended_date"
+        android:textColor="@color/text"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/suspended_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/text"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/suspended_des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/suspended_name"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/text"
+        android:textSize="16sp"/>
+
+</RelativeLayout>

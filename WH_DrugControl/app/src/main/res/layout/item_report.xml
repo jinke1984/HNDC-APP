@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/my_item_bg">
+
+    <TextView
+        android:id="@+id/time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13.3dip"
+        android:layout_marginTop="10dip"
+        android:drawableLeft="@drawable/circle_dot"
+        android:drawablePadding="6.6dip"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/face_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dip"
+        android:layout_marginRight="13.3dip"
+        android:textColor="@color/item_input_color"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/area_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="21.3dip"
+        android:layout_marginTop="45dip"
+        android:paddingBottom="10dip"
+        android:textColor="@color/item_input_color"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/count_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="13.3dip"
+        android:textColor="@color/item_input_color"
+        android:layout_marginTop="45dip"
+        android:paddingBottom="10dip"
+        android:textSize="14sp" />
+
+</RelativeLayout>

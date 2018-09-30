@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/qiandw_system_header_include" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/persion_heard_layout"
+            android:layout_width="80dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="13.3dip"
+            android:layout_marginLeft="13.3dip">
+
+            <ImageView
+                android:id="@+id/head_img"
+                android:layout_width="70dp"
+                android:layout_height="85dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                android:background="@drawable/default_image"/>
+
+            <ImageView
+                android:id="@+id/head_from_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/m_image"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="111.6dip"
+            android:layout_marginLeft="13.3dip">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13.3dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="19dip"
+                    android:textSize="13.33sp" />
+
+                <TextView
+                    android:id="@+id/id_card"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:textSize="13.33sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/persion_source_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="13.3dip"
+                android:layout_marginRight="13.3dip"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/persion_source_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"/>
+
+                <ImageView
+                    android:id="@+id/persion_source_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="6.6dip"
+        android:background="@color/food_bg" />
+
+    <cn.com.jinke.wh_drugcontrol.customview.NewGridView
+        android:id="@+id/control_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:listSelector="@color/transparent"
+        android:numColumns="3"
+        android:verticalSpacing="40dp" />
+</LinearLayout>

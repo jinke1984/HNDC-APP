@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/qiandw_system_header_include"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="6.6dip"
+                    android:drawableLeft="@drawable/wzt"
+                    android:drawablePadding="6.6dp"
+                    android:text="@string/wzt"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/current_location_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="6.6dp"
+                    android:background="@drawable/new_add_button"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+            <cn.com.jinke.wh_drugcontrol.customview.NewGridView
+                android:id="@+id/wzt_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6.6dp"
+                android:layout_marginRight="6.6dp"
+                android:layout_marginTop="13.3dip"
+                android:background="@color/white"
+                android:horizontalSpacing="6.6dp"
+                android:listSelector="@color/transparent"
+                android:numColumns="3"
+                android:verticalSpacing="6.6dp"
+                android:visibility="visible"/>
+
+            <!-- 加分割线 -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="6.6dp"
+                android:layout_marginRight="6.6dp"
+                android:layout_marginTop="19.9dp"
+                android:background="#dededf"
+                android:visibility="gone"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="6.6dip"
+                    android:drawableLeft="@drawable/fwzp"
+                    android:drawablePadding="6.6dp"
+                    android:text="@string/fwzp"
+                    android:textColor="@color/black" />
+
+
+                <Button
+                    android:id="@+id/live_location_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="6.6dp"
+                    android:background="@drawable/new_add_button"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+            <cn.com.jinke.wh_drugcontrol.customview.NewGridView
+                android:id="@+id/location_picture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6.6dp"
+                android:layout_marginRight="6.6dp"
+                android:layout_marginTop="13.3dip"
+                android:horizontalSpacing="6.6dp"
+                android:listSelector="@color/transparent"
+                android:numColumns="3"
+                android:paddingBottom="6.6dip"
+                android:verticalSpacing="6.6dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/qiandw_system_header_include" />
+
+</LinearLayout>

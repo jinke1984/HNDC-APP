@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdk/build/intermediates/incremental/mergeProductResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/jinke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/ba62db266a83a73b8af4773a196807f5/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdk/build/intermediates/res/merged/product/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/jinke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/ba62db266a83a73b8af4773a196807f5/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

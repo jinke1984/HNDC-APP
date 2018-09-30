@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customet="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/base_info_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip">
+
+            <TextView
+                android:id="@+id/base_info_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:drawableLeft="@drawable/blue_point"
+                android:drawablePadding="6dip"
+                android:drawableRight="@drawable/blue_point"
+                android:text="@string/whjnjgzqk"
+                android:textColor="@color/home_top_color"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1.3dip"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5.3dip"
+                android:layout_toLeftOf="@+id/base_info_tv"
+                android:background="@color/home_top_color"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1.3dip"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5.3dip"
+                android:layout_toRightOf="@+id/base_info_tv"
+                android:background="@color/home_top_color"/>
+        </RelativeLayout>
+
+        <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+            android:id="@+id/zzmm_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13.3dip"
+            android:layout_marginRight="13.3dip"
+            android:layout_marginTop="10dip"
+            customet:custom_enable="false"
+            customet:custom_show="true"
+            customet:custom_tv="@string/zzmm"/>
+
+        <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+            android:id="@+id/zzmmxz_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13.3dip"
+            android:layout_marginRight="13.3dip"
+            customet:custom_tv="@string/zzmmxx"/>
+
+        <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+            android:id="@+id/whcd_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13.3dip"
+            android:layout_marginRight="13.3dip"
+            customet:custom_enable="false"
+            customet:custom_show="true"
+            customet:custom_tv="@string/whcd"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13.3dip"
+            android:layout_marginRight="13.3dip"
+            android:layout_marginTop="8.5dip"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:text="@string/sfcjgzypx"
+                android:textColor="@color/new_notice_color"
+                android:textSize="15sp"/>
+
+            <RadioGroup
+                android:id="@+id/training_radiogroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.3dip"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/yes"
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:background="@drawable/radio_btn_select"
+                    android:button="@null"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:text="@string/shi"
+                    android:textColor="@color/new_notice_color"
+                    android:textSize="15sp"/>
+
+                <RadioButton
+                    android:id="@+id/no"
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:layout_marginLeft="13.3dip"
+                    android:background="@drawable/radio_btn_select"
+                    android:button="@null"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:text="@string/fou"
+                    android:textColor="@color/new_notice_color"
+                    android:textSize="15sp"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13.3dip"
+            android:layout_marginTop="8dp"
+            android:text="@string/tcjn"
+            android:textColor="@color/new_notice_color"
+            android:textSize="15sp"/>
+
+        <cn.com.jinke.wh_drugcontrol.customview.MultipeChooseView
+            android:id="@+id/tcjn_multi"
+            android:layout_width="match_parent"
+            android:layout_height="120dip"/>
+
+        <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+            android:id="@+id/tcjn_qt_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13.3dip"
+            android:layout_marginRight="13.3dip"
+            android:layout_marginTop="13.3dip"
+            android:visibility="gone"
+            customet:custom_tv="@string/qttcjn"/>
+
+        <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+            android:id="@+id/jyqk_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13.3dip"
+            android:layout_marginRight="13.3dip"
+            android:layout_marginTop="13.3dip"
+            customet:custom_enable="false"
+            customet:custom_show="true"
+            customet:custom_tv="@string/jyqk"/>
+
+        <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+            android:id="@+id/srqk_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13.3dip"
+            android:layout_marginRight="13.3dip"
+            customet:custom_enable="false"
+            customet:custom_show="true"
+            customet:custom_tv="@string/srqk"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13.3dip"
+            android:layout_marginTop="8dp"
+            android:text="@string/shbzqk"
+            android:textColor="@color/new_notice_color"
+            android:textSize="15sp"/>
+
+        <cn.com.jinke.wh_drugcontrol.customview.MultipeChooseView
+            android:id="@+id/shbzqk_multi"
+            android:layout_width="match_parent"
+            android:layout_height="120dip"/>
+
+        <cn.com.jinke.wh_drugcontrol.customview.MultipeChooseView
+            android:id="@+id/qtshbzqk_multi"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13.3dip"
+            android:layout_marginTop="8dp"
+            android:text="@string/grjl"
+            android:textColor="@color/new_notice_color"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/grjl_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:layout_marginTop="8dip"
+            android:gravity="top"
+            android:minHeight="160dip"
+            android:textColor="@color/new_notice_color"
+            android:textSize="14sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="13.3dip">
+
+            <Button
+                android:id="@+id/pre_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/login_button"
+                android:text="@string/syb"
+                android:textColor="#ffffff"
+                android:textSize="16sp"/>
+
+            <android.support.v4.widget.Space
+                android:layout_width="13.3dip"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/next_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/login_button"
+                android:text="@string/xyb"
+                android:textColor="#ffffff"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

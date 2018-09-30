@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dip"
+    android:background="@color/background"
+    android:orientation="horizontal"
+    android:paddingTop="1dp">
+
+    <LinearLayout
+        android:id="@+id/delete_layout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/my_item_bg"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:drawableLeft="@drawable/text_right_delete_change"
+            android:drawableStart="@drawable/text_right_delete_change"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:text="@string/shanchu"
+            android:textColor="@drawable/text_color_change"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/alter_layout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/my_item_bg"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:drawableLeft="@drawable/text_right_modify_change"
+            android:drawableStart="@drawable/text_right_modify_change"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:text="@string/xiugai"
+            android:textColor="@drawable/text_color_change"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

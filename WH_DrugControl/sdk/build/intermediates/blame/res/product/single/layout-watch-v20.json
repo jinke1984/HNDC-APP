@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdk/build/intermediates/res/merged/product/layout-watch-v20/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/jinke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/ba62db266a83a73b8af4773a196807f5/res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdk/build/intermediates/res/merged/product/layout-watch-v20/abc_alert_dialog_title_material.xml",
+        "source": "/Users/jinke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/ba62db266a83a73b8af4773a196807f5/res/layout-watch-v20/abc_alert_dialog_title_material.xml"
+    }
+]

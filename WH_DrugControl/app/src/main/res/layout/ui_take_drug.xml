@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customet="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/base_info_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip">
+
+        <TextView
+            android:id="@+id/base_info_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/blue_point"
+            android:drawablePadding="6dip"
+            android:drawableRight="@drawable/blue_point"
+            android:text="@string/xdqk"
+            android:textColor="@color/home_top_color"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1.3dip"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5.3dip"
+            android:layout_toLeftOf="@+id/base_info_tv"
+            android:background="@color/home_top_color"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1.3dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5.3dip"
+            android:layout_toRightOf="@+id/base_info_tv"
+            android:background="@color/home_top_color"/>
+    </RelativeLayout>
+
+    <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+        android:id="@+id/ccxdrq_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13.3dip"
+        android:layout_marginRight="13.3dip"
+        android:layout_marginTop="5.5dip"
+        customet:custom_enable="false"
+        customet:custom_iv="@drawable/time_button"
+        customet:custom_show="true"
+        customet:custom_tv="@string/ccxdrq"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13.3dip"
+        android:text="@string/lydipz"
+        android:textColor="@color/new_notice_color"
+        android:textSize="15sp"/>
+
+    <cn.com.jinke.wh_drugcontrol.customview.MultipeChooseView
+        android:id="@+id/drug_multipe_choose_view"
+        android:layout_width="match_parent"
+        android:layout_height="150dip"/>
+
+    <cn.com.jinke.wh_drugcontrol.customview.CustomEditText
+        android:id="@+id/qtdpxq_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13.3dip"
+        android:layout_marginRight="13.3dip"
+        android:visibility="gone"
+        customet:custom_tv="@string/qtdpxq"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13.3dip"
+        android:layout_marginTop="6.6dip"
+        android:text="@string/wffzqk"
+        android:textColor="@color/new_notice_color"
+        android:textSize="15sp"/>
+
+    <cn.com.jinke.wh_drugcontrol.customview.MultipeChooseView
+        android:id="@+id/fz_multipe_choose_view"
+        android:layout_width="match_parent"
+        android:layout_height="120dip"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="13.3dip">
+
+        <Button
+            android:id="@+id/pre_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/login_button"
+            android:text="@string/syb"
+            android:textColor="#ffffff"
+            android:textSize="16sp"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="13.3dip"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/next_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/login_button"
+            android:text="@string/xyb"
+            android:textColor="#ffffff"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

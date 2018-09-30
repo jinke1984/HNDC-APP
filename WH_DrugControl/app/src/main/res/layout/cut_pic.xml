@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/share_two"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="center" 
+        android:contentDescription="@string/app_name"/>
+
+    <LinearLayout
+        android:id="@+id/share_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:minHeight="27dp"
+        android:minWidth="28dp"
+        android:orientation="horizontal" >
+    </LinearLayout>
+    <!-- <ImageView -->
+    <!-- android:id="@+id/share_three" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="fill_parent" -->
+    <!-- android:background="@drawable/head_cut_zezhaoss" -->
+    <!-- /> -->
+
+    <RelativeLayout
+        android:id="@+id/layout_bottom_function_two"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bottom_bar_bg" >
+
+        <ImageView
+            android:id="@+id/btn_give_up"
+            android:layout_width="46.6667dip"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:scaleType="center"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_selector_cancel" />
+
+        <ImageView
+            android:id="@+id/btn_record_ok"
+            android:layout_width="46.6667dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="center"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_selector_done"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/drawable/cloudwalk_actionbar_btn_selector.xml",
+        "source": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/res/drawable/cloudwalk_actionbar_btn_selector.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/drawable/cloudwalk_eye_anim.xml",
+        "source": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/res/drawable/cloudwalk_eye_anim.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/drawable/notification_bg_low.xml",
+        "source": "/Users/jinke/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/07187f7430ed83f9f980a90dbf5e4902/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/drawable/notification_tile_bg.xml",
+        "source": "/Users/jinke/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/07187f7430ed83f9f980a90dbf5e4902/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/drawable/notification_bg.xml",
+        "source": "/Users/jinke/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/07187f7430ed83f9f980a90dbf5e4902/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/drawable/cloudwalk_up_anim.xml",
+        "source": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/res/drawable/cloudwalk_up_anim.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/drawable/cloudwalk_red_btn_selector.xml",
+        "source": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/res/drawable/cloudwalk_red_btn_selector.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/drawable/cloudwalk_left_anim.xml",
+        "source": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/res/drawable/cloudwalk_left_anim.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/drawable/cloudwalk_mouth_anim.xml",
+        "source": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/res/drawable/cloudwalk_mouth_anim.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/drawable/cloudwalk_down_anim.xml",
+        "source": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/res/drawable/cloudwalk_down_anim.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/drawable/cloudwalk_right_anim.xml",
+        "source": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/res/drawable/cloudwalk_right_anim.xml"
+    },
+    {
+        "merged": "/Users/jinke/AndroidStudioProjects3.0/HNDC-APP/WH_DrugControl/sdkproject/build/intermediates/res/merged/product/drawable/notification_icon_background.xml",
+        "source": "/Users/jinke/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/07187f7430ed83f9f980a90dbf5e4902/res/drawable/notification_icon_background.xml"
+    }
+]

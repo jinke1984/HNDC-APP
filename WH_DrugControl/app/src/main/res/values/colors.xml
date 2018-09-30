@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00000000</color>
+    <color name="theme_color">#01AFFF</color> <!-- 主色 -->
+    <color name="font_level_1_color">#323232</color> <!-- 主要文字、标题颜色 -->
+    <color name="white">#ffffff</color>
+    <color name="border_color">#E1E1E1</color> <!-- 描边颜色 -->
+    <color name="black">#000000</color>
+    <color name="text_color_normal">#666666</color>
+    <color name="percent_90_transparent">#e0000000</color>
+    <color name="warn_dot_color">#fb5f2f</color>
+    <color name="bottom_bar_bg">#e51c1d20</color>
+    <color name="meet_line">#e4e4e4</color>
+    <color name="item_bg">#d9d9d9</color>
+    <color name="hui">#ababab</color> <!--字体灰色 -->
+    <color name="system_top_bg">#4999e2</color>
+    <color name="text_hint">#b6b6b6</color>
+    <color name="home_line">#dcdcdc</color>
+    <color name="background">#f5f5f5</color>
+
+    <color name="login_title_color">#333</color>
+    <color name="login_line">#c9c9c9</color>
+    <color name="home_top_color">#5a79e5</color>
+    <color name="new_notice_color">#666</color>
+    <color name="hui_home">#999</color>
+    <color name="h_line">#e7e7e7</color>
+
+    <color name="dark_blue">#0579c1</color>
+    <color name="mask_jf_text_color">#333333</color>
+    <color name="item_text_color">#9f9f9f</color>
+    <color name="food_bg">#f0f0f0</color>
+    <color name="base_info_color">#646464</color>
+    <color name="item_input_color">#7f7f7f</color>
+    <color name="text">#333333</color>
+    <color name="text_s">#4899e1</color>
+    <color name="red">#f73d1f</color>
+    <color name="messge_control_text_color">#7f7f7f</color>
+    <color name="prvs">#ffad33</color>
+    <color name="light_gray">#ababab</color>
+
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="half_transparent">#55000000</color>
+
+</resources>
+
