@@ -498,4 +498,10 @@ public interface CodeConstants {
     String MSG_TITLE = "title";
     String MSG_IMG_URL = "img_url";
     String MSG_LINK_URL = "link";
+
+    /**
+     * 扫描文件默认的宽度(如果没有找到合适的就用这个)
+     */
+    int DEFAULT_WIDTH = 1920;
+    int DEFAULT_HEIGHT = 1080;
 }

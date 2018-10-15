@@ -200,8 +200,13 @@ public class RectPhotoUI extends ProjectBaseUI implements SurfaceHolder.Callback
             }
 
             //设置大小和方向等参数
-            myParam.setPictureSize(picSize.width, picSize.height);
-            myParam.setPreviewSize(preSize.width, preSize.height);
+            if(picSize == null || preSize == null){
+                myParam.setPictureSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
+                myParam.setPreviewSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
+            }else {
+                myParam.setPictureSize(picSize.width, picSize.height);
+                myParam.setPreviewSize(preSize.width, preSize.height);
+            }
             myParam.set("rotation", 90);
             myCamera.setDisplayOrientation(90);
             myParam.setFocusMode(Camera.Parameters.FOCUS_MODE_CONTINUOUS_VIDEO);
