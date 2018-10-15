@@ -216,7 +216,6 @@ public class RouteUtils {
      * 聊天路由路径
      */
     public final static String R_CHAT_UI = "/chat/chatui";
-    public final static String R_CHAT_VIDEO = "/chat/videoChatUi";
 
     /**
      * 吸毒人员综合查询

@@ -423,14 +423,6 @@ public class ChatUI extends ProjectBaseUI implements OnRefreshListener2<ListView
                 }
                 break;
             case CHAT_ROOM_NUMBER:
-                dismissLoading();
-                RoomInfo roomInfo = (RoomInfo) msg.obj;
-                if (EmptyUtils.isEmpty(roomInfo)) {
-                    break;
-                }
-                ARouter.getInstance().build(RouteUtils.R_CHAT_VIDEO)
-                        .withString(B_ID, roomInfo.getRoomNum())
-                        .navigation();
                 break;
             case ACCESS_NET_FAILED:
             default:
@@ -561,12 +553,9 @@ public class ChatUI extends ProjectBaseUI implements OnRefreshListener2<ListView
                 AlbumUtils.openCamera(this);
                 break;
             case R.id.take_video:
-//                ARouter.getInstance().build(RouteUtils.R_CHAT_VIDEO)
-//                        .withString(B_ID,"")
-//                        .navigation();
-
-                showLoading();
-                ChatManager.getInstance().getVideoChatRoomNumber(mPersion.getId());
+                //点击视频按钮
+//                showLoading();
+//                ChatManager.getInstance().getVideoChatRoomNumber(mPersion.getId());
                 break;
             default:
                 break;

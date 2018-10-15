@@ -5,14 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/WH_DrugControl.iml" filepath="$PROJECT_DIR$/WH_DrugControl.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/library-refresh/library-refresh.iml" filepath="$PROJECT_DIR$/library-refresh/library-refresh.iml" />
-      <module fileurl="file://$PROJECT_DIR$/node_modules/react-native-background-timer/android/react-native-background-timer.iml" filepath="$PROJECT_DIR$/node_modules/react-native-background-timer/android/react-native-background-timer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/react-native-fetch-blob.iml" filepath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/react-native-fetch-blob.iml" />
-      <module fileurl="file://$PROJECT_DIR$/node_modules/react-native-immersive/android/react-native-immersive.iml" filepath="$PROJECT_DIR$/node_modules/react-native-immersive/android/react-native-immersive.iml" />
-      <module fileurl="file://$PROJECT_DIR$/node_modules/react-native-keep-awake/android/react-native-keep-awake.iml" filepath="$PROJECT_DIR$/node_modules/react-native-keep-awake/android/react-native-keep-awake.iml" />
-      <module fileurl="file://$PROJECT_DIR$/node_modules/react-native-locale-detector/android/react-native-locale-detector.iml" filepath="$PROJECT_DIR$/node_modules/react-native-locale-detector/android/react-native-locale-detector.iml" />
-      <module fileurl="file://$PROJECT_DIR$/node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" />
-      <module fileurl="file://$PROJECT_DIR$/node_modules/react-native-webrtc/android/react-native-webrtc.iml" filepath="$PROJECT_DIR$/node_modules/react-native-webrtc/android/react-native-webrtc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sdk/sdk.iml" filepath="$PROJECT_DIR$/sdk/sdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/sdkproject/sdkproject.iml" filepath="$PROJECT_DIR$/sdkproject/sdkproject.iml" />
     </modules>
   </component>
