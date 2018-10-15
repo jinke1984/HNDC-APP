@@ -400,7 +400,7 @@
     <string name="xzjzwztfwzp">新增位置图和房屋照片</string>
 
     <!-- 截图界面 -->
-    <string name="smtssm">请把需要扫描的文件置于红框之类，对焦完成后点击屏幕进行扫描!</string>
+    <string name="smtssm">请把需要扫描的文件置于红框之内，对焦完成后点击屏幕进行扫描!</string>
 
     <!-- 文书录入 -->
     <string name="myda">该吸毒人员还没有建立档案，不能进行文书录入！</string>
