@@ -99,8 +99,8 @@ android {
         }
         product{
             signingConfig signingConfigs.release
-            debuggable false
-            jniDebuggable false
+            debuggable true
+            jniDebuggable true
             minifyEnabled false //是否混淆
             //shrinkResources true // 移除无用的resource文件
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
