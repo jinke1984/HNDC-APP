@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/WH_DrugControl.iml" filepath="$PROJECT_DIR$/WH_DrugControl.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/avchatkit/avchatkit.iml" filepath="$PROJECT_DIR$/avchatkit/avchatkit.iml" />
       <module fileurl="file://$PROJECT_DIR$/library-refresh/library-refresh.iml" filepath="$PROJECT_DIR$/library-refresh/library-refresh.iml" />
       <module fileurl="file://$PROJECT_DIR$/sdkproject/sdkproject.iml" filepath="$PROJECT_DIR$/sdkproject/sdkproject.iml" />
     </modules>

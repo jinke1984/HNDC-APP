@@ -12,6 +12,7 @@ import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.facade.callback.NavCallback;
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.blankj.utilcode.utils.AppUtils;
+import com.netease.nim.avchatkit.AVChatKit;
 
 import org.xutils.view.annotation.Event;
 import org.xutils.view.annotation.ViewInject;

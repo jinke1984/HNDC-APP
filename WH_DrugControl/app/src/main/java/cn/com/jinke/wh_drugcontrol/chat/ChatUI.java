@@ -41,6 +41,11 @@ import com.blankj.utilcode.utils.EmptyUtils;
 import com.handmark.pulltorefresh.library.PullToRefreshBase;
 import com.handmark.pulltorefresh.library.PullToRefreshBase.OnRefreshListener2;
 import com.handmark.pulltorefresh.library.PullToRefreshListView;
+import com.netease.nim.avchatkit.AVChatKit;
+import com.netease.nimlib.sdk.NIMClient;
+import com.netease.nimlib.sdk.RequestCallback;
+import com.netease.nimlib.sdk.auth.AuthService;
+import com.netease.nimlib.sdk.auth.LoginInfo;
 
 import junit.framework.Assert;
 
@@ -157,13 +162,21 @@ public class ChatUI extends ProjectBaseUI implements OnRefreshListener2<ListView
      */
     private boolean isGroup = true;
 
+    private int[] MSG = new int[]{MESSAGESUCCESS, CHAT_FRESH, PLAY, CHAT_ROOM_NUMBER, ACCESS_NET_FAILED};
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat);
         isPresence = 2;
-        registerMessages(new int[]{MESSAGESUCCESS, CHAT_FRESH, PLAY, CHAT_ROOM_NUMBER, ACCESS_NET_FAILED});
+        registerMessages(MSG);
+    }
+
+    @Override
+    protected void onInitData() {
+        //登录网易云客户端(1.登录成功直接使用 2.登录失败弹出对话框提示是否重新登录)
+        doLogin();
     }
 
     @Override
@@ -556,11 +569,48 @@ public class ChatUI extends ProjectBaseUI implements OnRefreshListener2<ListView
                 //点击视频按钮
 //                showLoading();
 //                ChatManager.getInstance().getVideoChatRoomNumber(mPersion.getId());
+
+                AVChatKit.outgoingCall(this, "1111", "1111", 1,1);
                 break;
             default:
                 break;
         }
     }
+
+    /**
+     * 网易云通信的登录
+     */
+    public void doLogin(){
+
+        //用户帐号
+        String account = "";
+
+        //登录token
+        String token = "";
+        LoginInfo info = new LoginInfo(account, token);
+
+        RequestCallback<LoginInfo> callback = new RequestCallback<LoginInfo>(){
+
+            @Override
+            public void onSuccess(LoginInfo param) {
+
+            }
+
+            @Override
+            public void onFailed(int code) {
+
+            }
+
+            @Override
+            public void onException(Throwable exception) {
+
+            }
+        };
+
+        NIMClient.getService(AuthService.class).login(info).setCallback(callback);
+    }
+
+
 
     @Override
     public void onPullDownToRefresh(PullToRefreshBase<ListView> refreshView) {

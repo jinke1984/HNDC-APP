@@ -168,14 +168,14 @@ public class TalkSaveUI extends BaseUI {
                 }
                 break;
             case CHAT_ROOM_NUMBER:
-                dismissLoading();
-                RoomInfo roomInfo = (RoomInfo) msg.obj;
-                if (EmptyUtils.isEmpty(roomInfo)) {
-                    break;
-                }
-                ARouter.getInstance().build(RouteUtils.R_CHAT_VIDEO)
-                        .withString(B_ID, roomInfo.getRoomNum())
-                        .navigation();
+//                dismissLoading();
+//                RoomInfo roomInfo = (RoomInfo) msg.obj;
+//                if (EmptyUtils.isEmpty(roomInfo)) {
+//                    break;
+//                }
+//                ARouter.getInstance().build(RouteUtils.R_CHAT_VIDEO)
+//                        .withString(B_ID, roomInfo.getRoomNum())
+//                        .navigation();
                 break;
             default:
                 break;

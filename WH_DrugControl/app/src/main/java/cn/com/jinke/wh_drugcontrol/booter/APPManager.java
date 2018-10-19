@@ -4,6 +4,7 @@ import android.app.Application;
 
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.baidu.mapapi.SDKInitializer;
+import com.netease.nim.avchatkit.AVChatKit;
 
 import org.xutils.x;
 
@@ -81,5 +82,7 @@ public class APPManager implements ShareConstant, CodeConstants{
         CommUtils.getInstance().assetsNationToList();
         CommUtils.getInstance().assetsStzkToList();
         CommUtils.getInstance().assetsHyzkToList();
+
+        AVChatKit.setContext(ProjectApplication.getContext());
     }
 }

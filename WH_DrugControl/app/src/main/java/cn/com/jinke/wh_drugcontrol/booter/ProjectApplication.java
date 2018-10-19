@@ -2,10 +2,15 @@ package cn.com.jinke.wh_drugcontrol.booter;
 
 import android.app.Activity;
 import android.app.ActivityManager;
+import android.app.Application;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.multidex.MultiDexApplication;
 import android.widget.Toast;
+
+import com.netease.nimlib.sdk.NIMClient;
+import com.netease.nimlib.sdk.SDKOptions;
+import com.netease.nimlib.sdk.auth.LoginInfo;
 
 import java.lang.ref.WeakReference;
 
@@ -51,12 +56,33 @@ public class ProjectApplication extends MultiDexApplication {
             }
         }
         registerActivityLifecycleCallbacks(lifecycleCall);
+
+        //网易云音视频加载相关
+        // SDK初始化（启动后台服务，若已经存在用户登录信息， SDK 将完成自动登录
+        NIMClient.init(getContext(), loginInfo(), options());
     }
 
     @Override
     public void onTerminate() {
         unregisterActivityLifecycleCallbacks(lifecycleCall);
         super.onTerminate();
+    }
+
+    /**
+     * 如果已经存在用户登录信息，返回LoginInfo，否则返回null即可
+     * @return
+     */
+    private LoginInfo loginInfo() {
+        return null;
+    }
+
+    /**
+     * 如果返回值为 null，则全部使用默认参数。
+     * @return
+     */
+    private SDKOptions options(){
+        SDKOptions options = new SDKOptions();
+        return options;
     }
 
     public static void setCurrentActivity(Activity activity) {
